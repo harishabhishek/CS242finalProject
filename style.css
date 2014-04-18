@@ -1,0 +1,261 @@
+.topbanner
+{
+    color: #2651a8;
+    padding-top:25px;
+    padding-bottom:25px;
+    padding-right:30%;
+    padding-left:30%;
+}
+
+.background
+{
+    height: 10%;
+    width: 70%;
+    color: darksalmon;
+    background: darksalmon;
+    float: right;
+}
+
+.backgroundleft
+{
+    height: 10%;
+    width: 30%;
+    color: #F2600B;
+    background: #F2600B;
+    float: right;
+    padding-top: 50%;
+}
+
+.header{
+    font:"Didact Gothic";
+    color: whitesmoke;
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+p.banner{
+    font:"Didact Gothic";
+    color: whitesmoke;
+    margin-left: 20px;
+    font-size: 60px;
+    padding-left: 20px;
+
+}
+
+p.logo{
+    font:"Didact Gothic";
+    color: #111111;
+    font-size: 100px;
+}
+
+a.nounderline
+{
+    color: #ffffff;
+    text-decoration: none;
+    text-shadow: 2px 2px #111111;
+}
+
+a:hover
+{
+    color:#00A0C6;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+
+body.back {
+    background: url('back.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-y: scroll;
+}
+
+button.login
+{
+    display: inline-block;
+    padding: 1em 2em 1em 2em;
+    letter-spacing: 0.10em;
+    margin-top: 2em;
+    background: #2651a8;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1em;
+    color: #FFF;
+    margin-left: 50px;
+    margin-top: 0px;
+}
+
+button.new
+{
+    display: inline-block;
+    padding: 1em 2em 1em 2em;
+    letter-spacing: 0.10em;
+    margin-top: 2em;
+    background: #2651a8;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1em;
+    color: #FFF;
+    margin-left: 50px;
+    margin-top: 0px;
+}
+
+button.add
+{
+    display: inline-block;
+    letter-spacing: 0.10em;
+    background: #2651a8;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFF;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+input.addDiv{
+    font: "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #00A0C6;
+    width: 300px;
+}
+
+#about{
+    font: "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+    width: 600px;
+    text-align: justify;
+    margin-left: 5%;
+
+}
+
+
+#div1{
+    font: "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+    width: 600px;
+    text-align: justify;
+    margin-left: 5%;
+
+}
+
+
+#join{
+    font: "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: #ffffff;
+    width: 600px;
+    text-align: justify;
+    margin-left: 5%;
+    text-shadow: 2px 2px #ff0000;
+
+}
+
+#join:hover{
+    font-size: 45px;
+}
+
+#Artist{
+    font: "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+    width: 500px;
+    text-align: justify;
+    margin-left: 50px;
+
+}
+
+#formdiv{
+
+    margin-top: 10%;
+    margin-left: 15%;
+    width: 450px;
+
+}
+
+#addArtistDiv{
+    height: 0px;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+}
+
+#formdiv2{
+
+    margin-top: 1%;
+    margin-left: 15%;
+    width: 450px;
+
+}
+
+label.title{
+    color: #ffffff;
+    font-size: 20px;
+    font: "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+}
+
+form
+{
+}
+
+form input,
+form select,
+form textarea
+{
+    -webkit-appearance: none;
+}
+
+form input[type=text],
+form input[type=password],
+form select,
+form textarea
+{
+    width: 100%;
+    border: 0;
+    padding: 0.75em;
+    font-size: 1em;
+    border-radius: 8px;
+    background: #eeeeee;
+    color: #bbb;
+    box-shadow: inset 0px 2px 5px 0px rgba(0,0,0,0.05), 0px 1px 0px 0px rgba(255,255,255,0.025);
+}
+
+font input[type=submit]
+{
+    background:greenyellow;
+    color: #F2600B;
+}
+
+form input[type=text]:focus,
+form input[type=password]:focus,
+form select:focus,
+form textarea:focus
+{
+    box-shadow: inset 0px 2px 5px 0px rgba(0,0,0,0.05), 0px 1px 0px 0px rgba(255,255,255,0.025), 0px 0px 2px 2px #74CAEE;
+}
+
+form textarea
+{
+    height: 5em;
+}
+
+.submitbuton{
+    display: inline-block;
+    padding: 1em 2em 1em 2em;
+    letter-spacing: 0.10em;
+    margin-top: 2em;
+    background: #2651a8;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1em;
+    color: #FFF;
+
+}
