@@ -5,7 +5,7 @@
  * Date: 4/18/14
  * Time: 12:51 AM
  */
-
+session_start();
 
 
 /**
@@ -33,18 +33,20 @@ function test_input($data)
     return $data;
 }
 
-$id = $_POST["userid"];
-$album = $_POST["albumname"];
 
-function printData($con){
 
-    echo "<div id= 'albumReplace'> ";
+$genre = $_POST["genrename"];
+$uid = $_SESSION['usrid'];
+
+function printData($con, $uid){
+
+    echo "<div id= 'genreReplace'> ";
 
     echo "<br>";
-    echo "<u> Albums: </u> <br>";
-    $result = mysqli_query($con,"select album from album ORDER BY album ASC");
+    echo "<u> Genre: </u> <br>";
+    $result = mysqli_query($con,"select genre from genre where  id='$uid' ORDER BY genre ASC");
     while($row = mysqli_fetch_array($result)){
-        echo "&emsp;".$row['album']."<br>";
+        echo "&emsp;".$row['genre']."<br>";
     }
     echo "<br>";
 
@@ -53,34 +55,34 @@ function printData($con){
 
 }
 
-function addIntoDatabase($con, $id, $album){
+function addIntoDatabase($con, $uid, $genre){
 
-    $albums = explode("," , $album);
+    $genres = explode("," , $genre);
 
+    for($i=0; $i<count($genres); $i++ ){
 
-    for($i=0; $i<count($albums); $i++ ){
-
-        $toUse = test_input($albums[$i]);
-        $stmt = $con->prepare("insert into album (album, id) values (?, ?)");
-        $stmt->bind_param("si", $toUse, $id);
+        $toUse = test_input($genres[$i]);
+        $stmt = $con->prepare("insert into genre (genre, id) values (?, ?)");
+        $stmt->bind_param("si", $toUse, $uid);
         $stmt->execute();
         $stmt->close();
 
+        $result = mysqli_query($con,"insert into hintgenre (genre) values ('$toUse')");
+
     }
-
-
 
 }
 
 $con = setDatabase();
 
 
-if($album!= ""){
+if($genre!= ""){
 
-    addIntoDatabase($con, $id, $album);
+    addIntoDatabase($con, $uid, $genre);
 
 }
-printData($con);
+printData($con, $uid);
+
 
 
 ?>

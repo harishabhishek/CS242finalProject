@@ -64,97 +64,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="login.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login.php">
+      <file leaf-file-name="login.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="437" selection-end="531" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="750">
+            <state line="33" column="0" selection-start="700" selection-end="700" vertical-scroll-proportion="0.63461536" vertical-offset="123" max-vertical-offset="750">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="loginHandler.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/loginHandler.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="179" column="26" selection-start="4975" selection-end="4975" vertical-scroll-proportion="0.6454918" vertical-offset="2370" max-vertical-offset="3120">
-              <folding>
-                <element signature="e#6#89#0" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1397838439000" expanded="true" signature="2103:2127" placeholder="select usr f..password..." />
-                <marker date="1397838439000" expanded="true" signature="2384:2398" placeholder="..." />
-                <marker date="1397838439000" expanded="true" signature="2665:2710" placeholder="insert into ..." />
-                <marker date="1397838439000" expanded="true" signature="2904:2962" placeholder="insert into ..." />
-                <marker date="1397838439000" expanded="true" signature="3005:3022" placeholder="..." />
-                <marker date="1397838439000" expanded="true" signature="3161:3688" placeholder="..." />
-                <marker date="1397838439000" expanded="true" signature="3248:3278" placeholder="..." />
-                <marker date="1397838439000" expanded="true" signature="3414:3560" placeholder="..." />
-                <marker date="1397838439000" expanded="true" signature="3414:3560" placeholder="..." />
-                <marker date="1397838439000" expanded="true" signature="3414:3444" placeholder="..." />
-                <marker date="1397838439000" expanded="true" signature="3712:5439" placeholder="..." />
-                <marker date="1397838439000" expanded="true" signature="3712:5439" placeholder="..." />
-                <marker date="1397838439000" expanded="true" signature="4108:4132" placeholder="select usr f..password..." />
-                <marker date="1397838439000" expanded="true" signature="4418:4432" placeholder="..." />
-                <marker date="1397838439000" expanded="true" signature="4602:4645" placeholder="select pwd f..password..." />
-                <marker date="1397838439000" expanded="true" signature="5075:5092" placeholder="..." />
-                <marker date="1397838439000" expanded="true" signature="5244:5258" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="signup.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/signup.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="36" selection-start="319" selection-end="319" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="915">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="0" selection-start="903" selection-end="903" vertical-scroll-proportion="-13.75" vertical-offset="150" max-vertical-offset="9510">
-              <folding>
-                <marker date="1397827658000" expanded="true" signature="13147:13192" placeholder="select artis..artist..." />
-                <marker date="1397827658000" expanded="true" signature="13584:13793" placeholder="..." />
-                <marker date="1397827658000" expanded="true" signature="13895:14106" placeholder="..." />
-                <marker date="1397827658000" expanded="true" signature="14258:14300" placeholder="select album..album..." />
-                <marker date="1397827658000" expanded="true" signature="14684:14889" placeholder="..." />
-                <marker date="1397827658000" expanded="true" signature="14988:15195" placeholder="..." />
-                <marker date="1397827658000" expanded="true" signature="15342:15381" placeholder="select song ..song..." />
-                <marker date="1397827658000" expanded="true" signature="15760:15958" placeholder="..." />
-                <marker date="1397827658000" expanded="true" signature="16054:16254" placeholder="..." />
-                <marker date="1397827658000" expanded="true" signature="16402:16444" placeholder="select genre..genre..." />
-                <marker date="1397827658000" expanded="true" signature="16828:17032" placeholder="..." />
-                <marker date="1397827658000" expanded="true" signature="17131:17337" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="addgenre.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addgenre.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="0" selection-start="1151" selection-end="1324" vertical-scroll-proportion="-5.4166665" vertical-offset="740" max-vertical-offset="1290">
-              <folding>
-                <marker date="1397822839000" expanded="true" signature="798:840" placeholder="select genre..genre..." />
-                <marker date="1397822839000" expanded="true" signature="1182:1225" placeholder="insert into ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="addartist.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addartist.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="28" selection-start="926" selection-end="926" vertical-scroll-proportion="-13.75" vertical-offset="360" max-vertical-offset="1410">
-              <folding>
-                <element signature="e#6#90#0" expanded="true" />
-                <marker date="1397822811000" expanded="true" signature="802:847" placeholder="select artis..artist..." />
-                <marker date="1397822811000" expanded="true" signature="1196:1241" placeholder="insert into ..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -174,7 +88,6 @@
         <option value="$PROJECT_DIR$/User.php" />
         <option value="$PROJECT_DIR$/test/CollectionTest.php" />
         <option value="$PROJECT_DIR$/test/DatabaseTest.php" />
-        <option value="$PROJECT_DIR$/test/StackTest.php" />
         <option value="$PROJECT_DIR$/test/UpdateDatabaseTest.php" />
         <option value="$PROJECT_DIR$/test/UserTest.php" />
         <option value="$PROJECT_DIR$/Database.php" />
@@ -183,23 +96,30 @@
         <option value="$PROJECT_DIR$/Stack.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/Input.php" />
-        <option value="$PROJECT_DIR$/style.css" />
-        <option value="$PROJECT_DIR$/profile.php" />
-        <option value="db-console:/a04f0dde/059fdd29-3fd4-4256-91dc-f47eaac7a466/" />
-        <option value="$PROJECT_DIR$/addartist.php" />
-        <option value="$PROJECT_DIR$/addsong.php" />
-        <option value="$PROJECT_DIR$/addgenre.php" />
-        <option value="$PROJECT_DIR$/addalbum.php" />
-        <option value="$PROJECT_DIR$/remartist.php" />
-        <option value="$PROJECT_DIR$/remalbum.php" />
-        <option value="$PROJECT_DIR$/remgenre.php" />
         <option value="$PROJECT_DIR$/remsongs.php" />
-        <option value="$PROJECT_DIR$/home.php" />
-        <option value="$PROJECT_DIR$/remsong.php" />
         <option value="$PROJECT_DIR$/thanks.php" />
         <option value="$PROJECT_DIR$/login.php" />
-        <option value="$PROJECT_DIR$/signup.php" />
+        <option value="$PROJECT_DIR$/test/StackTest.php" />
+        <option value="$PROJECT_DIR$/source/home.php" />
+        <option value="$PROJECT_DIR$/token-input-facebook.css" />
+        <option value="$PROJECT_DIR$/hint.php" />
+        <option value="$PROJECT_DIR$/gethint.php" />
         <option value="$PROJECT_DIR$/loginHandler.php" />
+        <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/addalbum.php" />
+        <option value="$PROJECT_DIR$/addgenre.php" />
+        <option value="$PROJECT_DIR$/addsong.php" />
+        <option value="$PROJECT_DIR$/remalbum.php" />
+        <option value="$PROJECT_DIR$/remartist.php" />
+        <option value="$PROJECT_DIR$/remgenre.php" />
+        <option value="$PROJECT_DIR$/remsong.php" />
+        <option value="$PROJECT_DIR$/home.php" />
+        <option value="$PROJECT_DIR$/addartist.php" />
+        <option value="db-console:/a04f0dde/059fdd29-3fd4-4256-91dc-f47eaac7a466/" />
+        <option value="$PROJECT_DIR$/signup.php" />
+        <option value="$PROJECT_DIR$/profile.php" />
+        <option value="$PROJECT_DIR$/test/TestPassword.php" />
+        <option value="$PROJECT_DIR$/source/signup.php" />
       </list>
     </option>
   </component>
@@ -210,9 +130,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="MAMP" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
-    <option name="width" value="1450" />
-    <option name="height" value="914" />
+    <option name="x" value="144" />
+    <option name="y" value="28" />
+    <option name="width" value="1490" />
+    <option name="height" value="867" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -242,11 +163,11 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Tests" />
-      </pane>
       <pane id="PackagesPane">
         <subPane />
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Tests" />
       </pane>
       <pane id="ProjectPane">
         <subPane>
@@ -266,6 +187,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -280,13 +215,17 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/test" />
-    <property name="options.lastSelected" value="web.server" />
+    <property name="options.lastSelected" value="database.main" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="dynamic.classpath" value="false" />
     <property name="SearchEverywhereHistory" value="" />
+    <property name="FullScreen" value="false" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -294,7 +233,11 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source" />
       <recent name="$PROJECT_DIR$/test" />
     </key>
   </component>
@@ -540,10 +483,6 @@
       <option name="usbDebugPort" value="7936" />
       <method />
     </configuration>
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner class="StackTest" directory="$PROJECT_DIR$" file="$PROJECT_DIR$/StackTest.php" scope="Class" />
-      <method />
-    </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -562,6 +501,10 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner class="StackTest" directory="$PROJECT_DIR$" file="$PROJECT_DIR$/StackTest.php" scope="Class" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -672,12 +615,6 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
-      <option name="VM_PARAMETERS" value="" />
-      <option name="USER_CFG_CLASS" />
-      <option name="CONTEXT_PROVIDER" />
-      <method />
-    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -695,6 +632,12 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
     <list size="4">
@@ -749,32 +692,35 @@
       <workItem from="1397245877974" duration="6000" />
       <workItem from="1397489463378" duration="729000" />
       <workItem from="1397490225756" duration="789000" />
-      <workItem from="1397528999829" duration="43004000" />
+      <workItem from="1397528999829" duration="46167000" />
+      <workItem from="1398107752727" duration="1671000" />
+      <workItem from="1398204327651" duration="8219000" />
+      <workItem from="1398269577537" duration="32903000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68184000" />
+    <option name="totallyTimeSpent" value="114140000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1450" height="914" extended-state="0" />
-    <editor active="false" />
+    <frame x="144" y="28" width="1490" height="867" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3272506" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2615572" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24387097" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25935483" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14701705" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17196132" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293944" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2410221" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -782,7 +728,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24786931" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2410221" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -813,451 +759,443 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="62" selection-start="835" selection-end="864" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="1080">
-          <folding>
-            <marker date="1397827658000" expanded="true" signature="13147:13192" placeholder="select artis..artist..." />
-            <marker date="1397827658000" expanded="true" signature="13584:13793" placeholder="..." />
-            <marker date="1397827658000" expanded="true" signature="13895:14106" placeholder="..." />
-            <marker date="1397827658000" expanded="true" signature="14258:14300" placeholder="select album..album..." />
-            <marker date="1397827658000" expanded="true" signature="14684:14889" placeholder="..." />
-            <marker date="1397827658000" expanded="true" signature="14988:15195" placeholder="..." />
-            <marker date="1397827658000" expanded="true" signature="15342:15381" placeholder="select song ..song..." />
-            <marker date="1397827658000" expanded="true" signature="15760:15958" placeholder="..." />
-            <marker date="1397827658000" expanded="true" signature="16054:16254" placeholder="..." />
-            <marker date="1397827658000" expanded="true" signature="16402:16444" placeholder="select genre..genre..." />
-            <marker date="1397827658000" expanded="true" signature="16828:17032" placeholder="..." />
-            <marker date="1397827658000" expanded="true" signature="17131:17337" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://db-console:/a04f0dde/059fdd29-3fd4-4256-91dc-f47eaac7a466/">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/StackTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="42" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="360" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="11" selection-start="2067" selection-end="2067" vertical-scroll-proportion="0.0" vertical-offset="1598" max-vertical-offset="3165" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/default.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="177" column="25" selection-start="2922" selection-end="2922" vertical-scroll-proportion="0.0" vertical-offset="2775" max-vertical-offset="8130" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8130" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login.php">
+    <entry file="file://$PROJECT_DIR$/token-input-facebook.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="77" selection-start="756" selection-end="756" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="570">
+        <state line="35" column="19" selection-start="778" selection-end="778" vertical-scroll-proportion="-0.26104417" vertical-offset="720" max-vertical-offset="1905">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/profile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="35" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="690">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/signup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="6" selection-start="1174" selection-end="1174" vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="870">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="30" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="495">
-          <folding>
-            <marker date="1397827658000" expanded="true" signature="13147:13192" placeholder="select artis..artist..." />
-            <marker date="1397827658000" expanded="true" signature="13584:13793" placeholder="..." />
-            <marker date="1397827658000" expanded="true" signature="13895:14106" placeholder="..." />
-            <marker date="1397827658000" expanded="true" signature="14258:14300" placeholder="select album..album..." />
-            <marker date="1397827658000" expanded="true" signature="14684:14889" placeholder="..." />
-            <marker date="1397827658000" expanded="true" signature="14988:15195" placeholder="..." />
-            <marker date="1397827658000" expanded="true" signature="15342:15381" placeholder="select song ..song..." />
-            <marker date="1397827658000" expanded="true" signature="15760:15958" placeholder="..." />
-            <marker date="1397827658000" expanded="true" signature="16054:16254" placeholder="..." />
-            <marker date="1397827658000" expanded="true" signature="16402:16444" placeholder="select genre..genre..." />
-            <marker date="1397827658000" expanded="true" signature="16828:17032" placeholder="..." />
-            <marker date="1397827658000" expanded="true" signature="17131:17337" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="11" selection-start="1999" selection-end="1999" vertical-scroll-proportion="0.0" vertical-offset="1517" max-vertical-offset="2985" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/default.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="177" column="25" selection-start="2922" selection-end="2922" vertical-scroll-proportion="0.0" vertical-offset="2655" max-vertical-offset="8130" />
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a04f0dde/059fdd29-3fd4-4256-91dc-f47eaac7a466/portfolio..comments">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180" />
-      </provider>
+    <entry file="dbDummy://dbtable:/a04f0dde/059fdd29-3fd4-4256-91dc-f47eaac7a466/project..password">
       <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/default.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="177" column="25" selection-start="2922" selection-end="2922" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8130" />
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/User.php">
+    <entry file="file://$PROJECT_DIR$/source/gethint.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="24" selection-start="238" selection-end="238" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="360" />
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-1.9885057" vertical-offset="1053" max-vertical-offset="1575">
+          <folding>
+            <marker date="1398402770000" expanded="true" signature="-1:-1" placeholder="select artis..hintartist..." />
+            <marker date="1398402770000" expanded="true" signature="-1:-1" placeholder="select song ..hintsong..." />
+            <marker date="1398402770000" expanded="true" signature="-1:-1" placeholder="select album..hintalbum..." />
+            <marker date="1398402770000" expanded="true" signature="-1:-1" placeholder="select genre..hintgenre..." />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/DatabaseTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="20" selection-start="1013" selection-end="1013" vertical-scroll-proportion="-4.375" vertical-offset="480" max-vertical-offset="900" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/StackTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="36" selection-start="223" selection-end="223" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="390" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/UpdateDatabaseTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="45" selection-start="356" selection-end="356" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="405" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/UserTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="21" selection-start="750" selection-end="750" vertical-scroll-proportion="-6.875" vertical-offset="450" max-vertical-offset="855" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back.jpg">
+    <entry file="file://$PROJECT_DIR$/source/back.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Stack.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="51" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="360" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="41" selection-start="259" selection-end="259" vertical-scroll-proportion="0.28399312" vertical-offset="0" max-vertical-offset="581" />
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a04f0dde/059fdd29-3fd4-4256-91dc-f47eaac7a466/project..collection">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180" />
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Collection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="47" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="540">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PasswordHash.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="556">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/CollectionTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="45" selection-start="665" selection-end="669" vertical-scroll-proportion="0.7837838" vertical-offset="0" max-vertical-offset="930">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UpdateDatabase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="52" selection-start="282" selection-end="282" vertical-scroll-proportion="0.2972973" vertical-offset="0" max-vertical-offset="555">
-          <folding>
-            <marker date="1397196592000" expanded="true" signature="-1:-1" placeholder="select artis..collection..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="16" selection-start="22" selection-end="22" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="135">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_PLUGINS_DIR$/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_4.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="429" column="7" selection-start="14356" selection-end="14356" vertical-scroll-proportion="0.34874758" vertical-offset="6254" max-vertical-offset="16320">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="546">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Input.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="16" selection-start="108" selection-end="108" vertical-scroll-proportion="0.084586464" vertical-offset="0" max-vertical-offset="532">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="546">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/a04f0dde/059fdd29-3fd4-4256-91dc-f47eaac7a466/project..users">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="dbDummy://db-console:/a04f0dde/059fdd29-3fd4-4256-91dc-f47eaac7a466/">
+    <entry file="file://$PROJECT_DIR$/hint.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="37" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="473">
+        <state line="33" column="0" selection-start="940" selection-end="940" vertical-scroll-proportion="0.5689655" vertical-offset="198" max-vertical-offset="720">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/a04f0dde/059fdd29-3fd4-4256-91dc-f47eaac7a466/project..artist">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a04f0dde/059fdd29-3fd4-4256-91dc-f47eaac7a466/project..genre">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a04f0dde/059fdd29-3fd4-4256-91dc-f47eaac7a466/project..song">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a04f0dde/059fdd29-3fd4-4256-91dc-f47eaac7a466/project..album">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addsong.php">
+    <entry file="file://$PROJECT_DIR$/source/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="0" selection-start="1423" selection-end="1423" vertical-scroll-proportion="2.0778444" vertical-offset="189" max-vertical-offset="1365">
+        <state line="161" column="13" selection-start="2812" selection-end="2812" vertical-scroll-proportion="0.619137" vertical-offset="2085" max-vertical-offset="5430">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/addalbum.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="609" selection-end="609" vertical-scroll-proportion="-16.625" vertical-offset="51" max-vertical-offset="1350">
           <folding>
             <element signature="e#6#90#0" expanded="false" />
-            <marker date="1397822829000" expanded="true" signature="-1:-1" placeholder="select song ..song..." />
-            <marker date="1397822829000" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+            <marker date="1398424066000" expanded="true" signature="-1:-1" placeholder="select album..album..." />
+            <marker date="1398424066000" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+            <marker date="1398424066000" expanded="true" signature="-1:-1" placeholder="insert into ..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/remalbum.php">
+    <entry file="file://$PROJECT_DIR$/source/addgenre.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="37" selection-start="1359" selection-end="1359" vertical-scroll-proportion="0.6407186" vertical-offset="849" max-vertical-offset="1350">
+        <state line="36" column="0" selection-start="610" selection-end="610" vertical-scroll-proportion="-19.375" vertical-offset="0" max-vertical-offset="1335">
           <folding>
             <element signature="e#6#90#0" expanded="false" />
-            <marker date="1397826128000" expanded="true" signature="-1:-1" placeholder="select album..album..." />
-            <marker date="1397826128000" expanded="true" signature="-1:-1" placeholder="delete from ..." />
+            <marker date="1398424076000" expanded="true" signature="-1:-1" placeholder="select genre..genre..." />
+            <marker date="1398424076000" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+            <marker date="1398424076000" expanded="true" signature="-1:-1" placeholder="insert into ..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/remgenre.php">
+    <entry file="file://$PROJECT_DIR$/source/addsong.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="37" selection-start="1359" selection-end="1359" vertical-scroll-proportion="0.6407186" vertical-offset="849" max-vertical-offset="1350">
+        <state line="7" column="16" selection-start="107" selection-end="107" vertical-scroll-proportion="0.056179777" vertical-offset="0" max-vertical-offset="1320">
           <folding>
             <element signature="e#6#90#0" expanded="false" />
-            <marker date="1397826353000" expanded="true" signature="-1:-1" placeholder="select genre..genre..." />
-            <marker date="1397826353000" expanded="true" signature="-1:-1" placeholder="delete from ..." />
+            <marker date="1398424094000" expanded="true" signature="-1:-1" placeholder="select song ..song..." />
+            <marker date="1398424094000" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+            <marker date="1398424094000" expanded="true" signature="-1:-1" placeholder="insert into ..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/remsong.php">
+    <entry file="file://$PROJECT_DIR$/source/remartist.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="31" selection-start="693" selection-end="704" vertical-scroll-proportion="-0.4491018" vertical-offset="825" max-vertical-offset="1350">
+        <state line="35" column="0" selection-start="609" selection-end="609" vertical-scroll-proportion="-9.375" vertical-offset="225" max-vertical-offset="1275">
           <folding>
-            <element signature="e#6#90#0" expanded="true" />
-            <marker date="1397826484000" expanded="true" signature="-1:-1" placeholder="select song ..song..." />
-            <marker date="1397826484000" expanded="true" signature="-1:-1" placeholder="delete from ..." />
+            <element signature="e#6#90#0" expanded="false" />
+            <marker date="1398424318000" expanded="true" signature="-1:-1" placeholder="select artis..artist..." />
+            <marker date="1398424318000" expanded="true" signature="-1:-1" placeholder="delete from ..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/remartist.php">
+    <entry file="file://$PROJECT_DIR$/source/remgenre.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="77" selection-start="0" selection-end="1387" vertical-scroll-proportion="1.3173653" vertical-offset="285" max-vertical-offset="1350">
+        <state line="7" column="16" selection-start="107" selection-end="107" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="1275">
           <folding>
-            <element signature="e#6#90#0" expanded="true" />
-            <marker date="1397823182000" expanded="true" signature="-1:-1" placeholder="select artis..artist..." />
-            <marker date="1397823182000" expanded="true" signature="-1:-1" placeholder="delete from ..." />
-            <marker date="1397823182000" expanded="true" signature="-1:-1" placeholder="delete from ..." />
-            <marker date="1397823182000" expanded="true" signature="-1:-1" placeholder="delete from ..." />
-            <marker date="1397823182000" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+            <element signature="e#6#90#0" expanded="false" />
+            <marker date="1398424329000" expanded="true" signature="-1:-1" placeholder="select genre..genre..." />
+            <marker date="1398424329000" expanded="true" signature="-1:-1" placeholder="delete from ..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addalbum.php">
+    <entry file="file://$PROJECT_DIR$/source/remsong.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="205" selection-end="401" vertical-scroll-proportion="0.41916168" vertical-offset="0" max-vertical-offset="1380">
+        <state line="35" column="0" selection-start="609" selection-end="609" vertical-scroll-proportion="0.5898876" vertical-offset="135" max-vertical-offset="1275">
           <folding>
-            <element signature="e#6#90#0" expanded="true" />
-            <marker date="1397822846000" expanded="true" signature="-1:-1" placeholder="select album..album..." />
-            <marker date="1397822846000" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+            <element signature="e#6#90#0" expanded="false" />
+            <marker date="1398424341000" expanded="true" signature="-1:-1" placeholder="select song ..song..." />
+            <marker date="1398424341000" expanded="true" signature="-1:-1" placeholder="delete from ..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/profile.php">
+    <entry file="file://$PROJECT_DIR$/source/remalbum.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="243" selection-end="336" vertical-scroll-proportion="0.2994012" vertical-offset="0" max-vertical-offset="1185">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thanks.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="21" selection-start="310" selection-end="310" vertical-scroll-proportion="0.5988024" vertical-offset="0" max-vertical-offset="540">
+        <state line="34" column="0" selection-start="608" selection-end="608" vertical-scroll-proportion="12.75" vertical-offset="741" max-vertical-offset="1275">
           <folding>
-            <element signature="e#6#89#0" expanded="true" />
+            <element signature="e#6#90#0" expanded="false" />
+            <marker date="1398424290000" expanded="true" signature="-1:-1" placeholder="select album..album..." />
+            <marker date="1398424290000" expanded="true" signature="-1:-1" placeholder="delete from ..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="5" selection-start="2296" selection-end="2296" vertical-scroll-proportion="4.0429688" vertical-offset="0" max-vertical-offset="4005">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addgenre.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="0" selection-start="1151" selection-end="1324" vertical-scroll-proportion="-5.4166665" vertical-offset="740" max-vertical-offset="1290">
-          <folding>
-            <marker date="1397822839000" expanded="true" signature="798:840" placeholder="select genre..genre..." />
-            <marker date="1397822839000" expanded="true" signature="1182:1225" placeholder="insert into ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addartist.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="28" selection-start="926" selection-end="926" vertical-scroll-proportion="-13.75" vertical-offset="360" max-vertical-offset="1410">
-          <folding>
-            <element signature="e#6#90#0" expanded="true" />
-            <marker date="1397822811000" expanded="true" signature="802:847" placeholder="select artis..artist..." />
-            <marker date="1397822811000" expanded="true" signature="1196:1241" placeholder="insert into ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a04f0dde/059fdd29-3fd4-4256-91dc-f47eaac7a466/project..password">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/signup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="36" selection-start="319" selection-end="319" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="915">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="903" selection-end="903" vertical-scroll-proportion="-13.75" vertical-offset="150" max-vertical-offset="9510">
-          <folding>
-            <marker date="1397827658000" expanded="true" signature="13147:13192" placeholder="select artis..artist..." />
-            <marker date="1397827658000" expanded="true" signature="13584:13793" placeholder="..." />
-            <marker date="1397827658000" expanded="true" signature="13895:14106" placeholder="..." />
-            <marker date="1397827658000" expanded="true" signature="14258:14300" placeholder="select album..album..." />
-            <marker date="1397827658000" expanded="true" signature="14684:14889" placeholder="..." />
-            <marker date="1397827658000" expanded="true" signature="14988:15195" placeholder="..." />
-            <marker date="1397827658000" expanded="true" signature="15342:15381" placeholder="select song ..song..." />
-            <marker date="1397827658000" expanded="true" signature="15760:15958" placeholder="..." />
-            <marker date="1397827658000" expanded="true" signature="16054:16254" placeholder="..." />
-            <marker date="1397827658000" expanded="true" signature="16402:16444" placeholder="select genre..genre..." />
-            <marker date="1397827658000" expanded="true" signature="16828:17032" placeholder="..." />
-            <marker date="1397827658000" expanded="true" signature="17131:17337" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="437" selection-end="531" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="750">
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/loginHandler.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="179" column="26" selection-start="4975" selection-end="4975" vertical-scroll-proportion="0.6454918" vertical-offset="2370" max-vertical-offset="3120">
+        <state line="93" column="0" selection-start="2075" selection-end="2333" vertical-scroll-proportion="0.50098234" vertical-offset="1065" max-vertical-offset="3315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/addartist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="5" selection-start="972" selection-end="972" vertical-scroll-proportion="-16.25" vertical-offset="270" max-vertical-offset="1380">
           <folding>
-            <element signature="e#6#89#0" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1397838439000" expanded="true" signature="2103:2127" placeholder="select usr f..password..." />
-            <marker date="1397838439000" expanded="true" signature="2384:2398" placeholder="..." />
-            <marker date="1397838439000" expanded="true" signature="2665:2710" placeholder="insert into ..." />
-            <marker date="1397838439000" expanded="true" signature="2904:2962" placeholder="insert into ..." />
-            <marker date="1397838439000" expanded="true" signature="3005:3022" placeholder="..." />
-            <marker date="1397838439000" expanded="true" signature="3161:3688" placeholder="..." />
-            <marker date="1397838439000" expanded="true" signature="3248:3278" placeholder="..." />
-            <marker date="1397838439000" expanded="true" signature="3414:3560" placeholder="..." />
-            <marker date="1397838439000" expanded="true" signature="3414:3560" placeholder="..." />
-            <marker date="1397838439000" expanded="true" signature="3414:3444" placeholder="..." />
-            <marker date="1397838439000" expanded="true" signature="3712:5439" placeholder="..." />
-            <marker date="1397838439000" expanded="true" signature="3712:5439" placeholder="..." />
-            <marker date="1397838439000" expanded="true" signature="4108:4132" placeholder="select usr f..password..." />
-            <marker date="1397838439000" expanded="true" signature="4418:4432" placeholder="..." />
-            <marker date="1397838439000" expanded="true" signature="4602:4645" placeholder="select pwd f..password..." />
-            <marker date="1397838439000" expanded="true" signature="5075:5092" placeholder="..." />
-            <marker date="1397838439000" expanded="true" signature="5244:5258" placeholder="..." />
+            <element signature="e#6#90#0" expanded="false" />
+            <marker date="1398437929000" expanded="true" signature="-1:-1" placeholder="select artis..artist..." />
+            <marker date="1398437929000" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+            <marker date="1398437929000" expanded="true" signature="-1:-1" placeholder="insert into ..." />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/source/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="557" column="20" selection-start="15509" selection-end="15509" vertical-scroll-proportion="0.4400786" vertical-offset="8131" max-vertical-offset="11175">
+          <folding>
+            <element signature="e#174#257#0" expanded="false" />
+            <marker date="1398441183000" expanded="true" signature="-1:-1" placeholder="select fname..users..." />
+            <marker date="1398441183000" expanded="true" signature="-1:-1" placeholder="select artis..artist..." />
+            <marker date="1398441183000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1398441183000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1398441183000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1398441183000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1398441183000" expanded="true" signature="-1:-1" placeholder="select album..album..." />
+            <marker date="1398441183000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1398441183000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1398441183000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1398441183000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1398441183000" expanded="true" signature="-1:-1" placeholder="select song ..song..." />
+            <marker date="1398441183000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1398441183000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1398441183000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1398441183000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1398441183000" expanded="true" signature="-1:-1" placeholder="select genre..genre..." />
+            <marker date="1398441183000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1398441183000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1398441183000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1398441183000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://db-console:/a04f0dde/059fdd29-3fd4-4256-91dc-f47eaac7a466/">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="44" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="529">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/StackTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="40" selection-start="300" selection-end="332" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/TestPassword.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="305" selection-end="305" vertical-scroll-proportion="0.31609195" vertical-offset="0" max-vertical-offset="522">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="191" selection-end="191" vertical-scroll-proportion="0.22435898" vertical-offset="0" max-vertical-offset="468">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/CollectionTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="53" selection-start="1867" selection-end="1867" vertical-scroll-proportion="0.88235295" vertical-offset="915" max-vertical-offset="2295">
+          <folding>
+            <element signature="n#style#0;n#button#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1398439895000" expanded="true" signature="-1:-1" placeholder="select uname..users..." />
+            <marker date="1398439895000" expanded="true" signature="-1:-1" placeholder="select pwd f..users..." />
+            <marker date="1398439895000" expanded="true" signature="-1:-1" placeholder="select id fr..users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/signup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="0" selection-start="978" selection-end="978" vertical-scroll-proportion="0.7307692" vertical-offset="333" max-vertical-offset="2550">
+          <folding>
+            <marker date="1398441269000" expanded="true" signature="-1:-1" placeholder="select uname..users..." />
+            <marker date="1398441269000" expanded="true" signature="-1:-1" placeholder="select MAX(i..users..." />
+            <marker date="1398441269000" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a04f0dde/059fdd29-3fd4-4256-91dc-f47eaac7a466/project..album">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a04f0dde/059fdd29-3fd4-4256-91dc-f47eaac7a466/project..artist">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a04f0dde/059fdd29-3fd4-4256-91dc-f47eaac7a466/project..genre">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a04f0dde/059fdd29-3fd4-4256-91dc-f47eaac7a466/project..hintalbum">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a04f0dde/059fdd29-3fd4-4256-91dc-f47eaac7a466/project..hintartist">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a04f0dde/059fdd29-3fd4-4256-91dc-f47eaac7a466/project..hintgenre">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a04f0dde/059fdd29-3fd4-4256-91dc-f47eaac7a466/project..hintsong">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a04f0dde/059fdd29-3fd4-4256-91dc-f47eaac7a466/project..song">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a04f0dde/059fdd29-3fd4-4256-91dc-f47eaac7a466/project..users">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="700" selection-end="700" vertical-scroll-proportion="0.63461536" vertical-offset="123" max-vertical-offset="750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>javafx-dialogs-0.0.4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>MusicMate</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 

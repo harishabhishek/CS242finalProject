@@ -1045,10 +1045,21 @@
       <column name="id" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
       <index name="genre" unique="true" columns="genre,id"/>
     </table>
+    <table name="hintalbum" schema="" catalog="project" type="TABLE">
+      <column name="album" sqlType="VARCHAR" length="200" precision="0" nullable="false" jdbcType="12"/>
+    </table>
+    <table name="hintartist" schema="" catalog="project" type="TABLE">
+      <column name="artist" sqlType="VARCHAR" length="200" precision="0" nullable="false" jdbcType="12"/>
+    </table>
+    <table name="hintgenre" schema="" catalog="project" type="TABLE">
+      <column name="genre" sqlType="VARCHAR" length="200" precision="0" nullable="false" jdbcType="12"/>
+    </table>
+    <table name="hintsong" schema="" catalog="project" type="TABLE">
+      <column name="song" sqlType="VARCHAR" length="200" precision="0" nullable="false" jdbcType="12"/>
+    </table>
     <table name="password" schema="" catalog="project" type="TABLE">
-      <column name="pwd" sqlType="VARCHAR" length="500" precision="0" nullable="false" jdbcType="12"/>
-      <column name="usr" sqlType="VARCHAR" length="200" precision="0" nullable="false" jdbcType="12"/>
-      <primary-key name="PRIMARY" columns="usr"/>
+      <column name="pwd" sqlType="VARBINARY" length="256" precision="0" nullable="false" jdbcType="-3"/>
+      <column name="usr" sqlType="VARBINARY" length="256" precision="0" nullable="false" jdbcType="-3"/>
     </table>
     <table name="song" schema="" catalog="project" type="TABLE">
       <column name="song" sqlType="VARCHAR" length="200" precision="0" nullable="false" jdbcType="12"/>
@@ -1056,14 +1067,12 @@
       <index name="song" unique="true" columns="song,id"/>
     </table>
     <table name="users" schema="" catalog="project" type="TABLE">
-      <column name="fname" sqlType="VARCHAR" length="50" precision="0" nullable="false" jdbcType="12"/>
-      <column name="lname" sqlType="VARCHAR" length="50" precision="0" nullable="false" jdbcType="12"/>
-      <column name="email" sqlType="VARCHAR" length="100" precision="0" nullable="false" jdbcType="12"/>
-      <column name="id" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
-      <column name="uname" sqlType="VARCHAR" length="50" precision="0" nullable="false" jdbcType="12"/>
+      <column name="fname" sqlType="VARCHAR" length="200" precision="0" nullable="false" jdbcType="12"/>
       <column name="pwd" sqlType="VARCHAR" length="200" precision="0" nullable="false" jdbcType="12"/>
-      <primary-key name="PRIMARY" columns="id"/>
-      <index name="email" unique="true" columns="email,uname"/>
+      <column name="lname" sqlType="VARCHAR" length="200" precision="0" nullable="false" jdbcType="12"/>
+      <column name="email" sqlType="VARCHAR" length="200" precision="0" nullable="false" jdbcType="12"/>
+      <column name="id" sqlType="VARCHAR" length="200" precision="0" nullable="false" jdbcType="12"/>
+      <column name="uname" sqlType="VARCHAR" length="200" precision="0" nullable="false" jdbcType="12"/>
     </table>
   </data-source>
 </component>

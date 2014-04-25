@@ -5,7 +5,7 @@
  * Date: 4/18/14
  * Time: 12:51 AM
  */
-
+session_start();
 
 
 /**
@@ -33,16 +33,16 @@ function test_input($data)
     return $data;
 }
 
-$id = $_POST["userid"];
 $genre = $_POST["genrename"];
+$uid = $_SESSION['usrid'];
 
-function printData($con){
+function printData($con, $uid){
 
     echo "<div id= 'GenreReplace'> ";
 
     echo "<br>";
     echo "<u> Genres: </u> <br>";
-    $result = mysqli_query($con,"select genre from genre ORDER BY genre ASC");
+    $result = mysqli_query($con,"select genre from genre where  id='$uid' ORDER BY genre ASC");
     while($row = mysqli_fetch_array($result)){
         echo "&emsp;".$row['genre']."<br>";
     }
@@ -53,7 +53,7 @@ function printData($con){
 
 }
 
-function addIntoDatabase($con, $id, $genre){
+function addIntoDatabase($con, $uid, $genre){
 
     $genres = explode("," , $genre);
 
@@ -61,7 +61,7 @@ function addIntoDatabase($con, $id, $genre){
     for($i=0; $i<count($genres); $i++ ){
 
         $toUse = test_input($genres[$i]);
-        $stmt = mysqli_query($con, "delete from genre where genre = '$toUse'  and id = '$id' ");
+        $stmt = mysqli_query($con, "delete from genre where genre = '$toUse'  and id = '$uid' ");
 
 
     }
@@ -72,11 +72,11 @@ function addIntoDatabase($con, $id, $genre){
 
 $con = setDatabase();
 
-printData($con);
+printData($con, $uid);
 
 if($genre!= ""){
 
-    addIntoDatabase($con, $id, $genre);
+    addIntoDatabase($con, $uid, $genre);
 
 }
 

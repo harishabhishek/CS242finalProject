@@ -5,7 +5,7 @@
  * Date: 4/18/14
  * Time: 12:51 AM
  */
-
+session_start();
 
 
 /**
@@ -33,16 +33,16 @@ function test_input($data)
     return $data;
 }
 
-$id = $_POST["userid"];
 $artist = $_POST["artistname"];
+$uid = $_SESSION['usrid'];
 
-function printData($con){
+function printData($con, $uid){
 
     echo "<div id= 'artistReplace'> ";
 
     echo "<br>";
     echo "<u> Artists: </u> <br>";
-    $result = mysqli_query($con,"select artist from artist ORDER BY artist ASC");
+    $result = mysqli_query($con,"select artist from artist where  id='$uid' ORDER BY artist ASC");
     while($row = mysqli_fetch_array($result)){
         echo "&emsp;".$row['artist']."<br>";
     }
@@ -53,7 +53,7 @@ function printData($con){
 
 }
 
-function addIntoDatabase($con, $id, $artist){
+function addIntoDatabase($con, $uid, $artist){
 
     $artists = explode("," , $artist);
 
@@ -61,7 +61,7 @@ function addIntoDatabase($con, $id, $artist){
     for($i=0; $i<count($artists); $i++ ){
 
         $toUse = test_input($artists[$i]);
-        $stmt = mysqli_query($con, "delete from artist where artist = '$toUse'  and id = '$id' ");
+        $stmt = mysqli_query($con, "delete from artist where artist = '$toUse'  and id = '$uid' ");
 
 
     }
@@ -72,11 +72,11 @@ function addIntoDatabase($con, $id, $artist){
 
 $con = setDatabase();
 
-printData($con);
+printData($con, $uid);
 
 if($artist!= ""){
 
-    addIntoDatabase($con, $id, $artist);
+    addIntoDatabase($con, $uid, $artist);
 
 }
 

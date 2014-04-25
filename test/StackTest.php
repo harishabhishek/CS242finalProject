@@ -17,5 +17,11 @@ class StackTest extends PHPUnit_Framework_TestCase
         $this->assertEquals($temp, 'a');
 
     }
+
+    public function testHash(){
+        $var = md5("Hello World", true);
+
+        $this->assertEquals(md5("Hello World", true), $var);
+    }
 }
 ?>

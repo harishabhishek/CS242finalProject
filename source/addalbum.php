@@ -5,7 +5,7 @@
  * Date: 4/18/14
  * Time: 12:51 AM
  */
-
+session_start();
 
 
 /**
@@ -33,18 +33,19 @@ function test_input($data)
     return $data;
 }
 
-$id = $_POST["userid"];
-$artist = $_POST["artistname"];
 
-function printData($con){
+$album = $_POST["albumname"];
+$uid = $_SESSION['usrid'];
 
-    echo "<div id= 'artistReplace'> ";
+function printData($con, $uid){
+
+    echo "<div id= 'albumReplace'> ";
 
     echo "<br>";
-    echo "<u> Artists: </u> <br>";
-    $result = mysqli_query($con,"select artist from artist ORDER BY artist ASC");
+    echo "<u> Albums: </u> <br>";
+    $result = mysqli_query($con,"select album from album where  id='$uid' ORDER BY album ASC");
     while($row = mysqli_fetch_array($result)){
-        echo "&emsp;".$row['artist']."<br>";
+        echo "&emsp;".$row['album']."<br>";
     }
     echo "<br>";
 
@@ -53,18 +54,20 @@ function printData($con){
 
 }
 
-function addIntoDatabase($con, $id, $artist){
+function addIntoDatabase($con, $uid, $album){
 
-    $artists = explode("," , $artist);
+    $albums = explode("," , $album);
 
 
-    for($i=0; $i<count($artists); $i++ ){
+    for($i=0; $i<count($albums); $i++ ){
 
-        $toUse = test_input($artists[$i]);
-        $stmt = $con->prepare("insert into artist (artist, id) values (?, ?)");
-        $stmt->bind_param("si", $toUse, $id);
+        $toUse = test_input($albums[$i]);
+        $stmt = $con->prepare("insert into album (album, id) values (?, ?)");
+        $stmt->bind_param("si", $toUse, $uid);
         $stmt->execute();
         $stmt->close();
+
+        $result = mysqli_query($con,"insert into hintalbum (album) values ('$toUse')");
 
     }
 
@@ -75,14 +78,12 @@ function addIntoDatabase($con, $id, $artist){
 $con = setDatabase();
 
 
+if($album!= ""){
 
-if($artist!= ""){
-
-    addIntoDatabase($con, $id, $artist);
+    addIntoDatabase($con, $uid, $album);
 
 }
-
-printData($con);
+printData($con, $uid);
 
 
 ?>

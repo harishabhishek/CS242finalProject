@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MusicMate.iml" filepath="$PROJECT_DIR$/MusicMate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tokenizer/tokenizer.iml" filepath="$PROJECT_DIR$/tokenizer/tokenizer.iml" />
     </modules>
   </component>
 </project>

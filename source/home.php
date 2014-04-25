@@ -1,3 +1,6 @@
+<?php session_start(); ?>
+
+
 <!DOCTYPE html>
 <!--This file is the home page of the user. This will be updated so that it is
 customized and personalized for each user-->
@@ -12,12 +15,17 @@ customized and personalized for each user-->
 session_start();
 $_SESSION['views']= "0";
 $GLOBALS['s'] = "0";
+$uid = $_SESSION['usrid'];
+//$uid = 4;
 ?>
 <html>
 <head>
     <link rel="STYLESHEET" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="../token-input-facebook.css" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
     </script>
+    <script type="text/javascript" src="../tokenizer/jquery.tokeninput.js"></script>
+
 
     <script>
         $(document).ready(function(){
@@ -43,7 +51,7 @@ $GLOBALS['s'] = "0";
             $("#addArtistDivBut").click(function(){
 
                 var url = "addartist.php";
-                var userid = "1";
+                var userid = "<?php echo $_SESSION['usrid']; ?> ";
 
                 /* Post the data to the given URL*/
                 var posting = $.post( url, { userid: userid, artistname: $('#artistname').val() } );
@@ -83,7 +91,7 @@ $GLOBALS['s'] = "0";
             $("#addAlbumDivBut").click(function(){
 
                 var url = "addalbum.php";
-                var userid = "1";
+                var userid = "<?php echo $uid; ?>";
 
                 /* Post the data to the given URL*/
                 var posting = $.post( url, { userid: userid, albumname: $('#albumname').val() } );
@@ -123,7 +131,7 @@ $GLOBALS['s'] = "0";
             $("#addSongDivBut").click(function(){
 
                 var url = "addsong.php";
-                var userid = "1";
+                var userid = "<?php echo $uid; ?>";
 
                 /* Post the data to the given URL*/
                 var posting = $.post( url, { userid: userid, songname: $('#songname').val() } );
@@ -163,7 +171,7 @@ $GLOBALS['s'] = "0";
             $("#addGenreDivBut").click(function(){
 
                 var url = "addgenre.php";
-                var userid = "1";
+                var userid = "<?php echo $uid; ?>";
 
                 /* Post the data to the given URL*/
                 var posting = $.post( url, { userid: userid, genrename: $('#genrename').val() } );
@@ -208,7 +216,7 @@ $GLOBALS['s'] = "0";
             $("#remArtistDivBut").click(function(){
 
                 var url = "remartist.php";
-                var userid = "1";
+                var userid = "<?php echo $uid; ?>";
 
                 /* Post the data to the given URL*/
                 var posting = $.post( url, { userid: userid, artistname: $('#remartistname').val() } );
@@ -247,7 +255,7 @@ $GLOBALS['s'] = "0";
             $("#remAlbumDivBut").click(function(){
 
                 var url = "remalbum.php";
-                var userid = "1";
+                var userid = "<?php echo $uid; ?>";
 
                 /* Post the data to the given URL*/
                 var posting = $.post( url, { userid: userid, albumname: $('#remalbumname').val() } );
@@ -286,7 +294,7 @@ $GLOBALS['s'] = "0";
             $("#remSongDivBut").click(function(){
 
                 var url = "remsong.php";
-                var userid = "1";
+                var userid = "<?php echo $uid; ?>";
 
                 /* Post the data to the given URL*/
                 var posting = $.post( url, { userid: userid, songname: $('#remsongname').val() } );
@@ -325,7 +333,7 @@ $GLOBALS['s'] = "0";
             $("#remGenreDivBut").click(function(){
 
                 var url = "remgenre.php";
-                var userid = "1";
+                var userid = "<?php echo $uid; ?>";
 
                 /* Post the data to the given URL*/
                 var posting = $.post( url, { userid: userid, genrename: $('#remgenrename').val() } );
@@ -458,6 +466,76 @@ $GLOBALS['s'] = "0";
 
     </script>
 
+    <script>
+        function showHint(str, type)
+        {
+            var xmlhttp;
+            if (str.length==0)
+            {
+                document.getElementById("txtHint"+type).innerHTML="";
+                return;
+            }
+            if (window.XMLHttpRequest)
+            {// code for IE7+, Firefox, Chrome, Opera, Safari
+                xmlhttp=new XMLHttpRequest();
+            }
+            else
+            {// code for IE6, IE5
+                xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+            }
+
+
+            if(str.indexOf(", ") >= 0){
+                var arr = str.split(", ");
+                str = arr[arr.length -1 ];
+            }
+
+            xmlhttp.onreadystatechange=function()
+            {
+                if (xmlhttp.readyState==4 && xmlhttp.status==200)
+                {
+                    document.getElementById("txtHint"+type).innerHTML=xmlhttp.responseText;
+                }
+            }
+            xmlhttp.open("GET","gethint.php?ty="+type+"&q="+str,true);
+            xmlhttp.send();
+        }
+
+        function showHint2(str, type)
+        {
+            var xmlhttp;
+            if (str.length==0)
+            {
+                document.getElementById("txtHint"+type+"2").innerHTML="";
+                return;
+            }
+            if (window.XMLHttpRequest)
+            {// code for IE7+, Firefox, Chrome, Opera, Safari
+                xmlhttp=new XMLHttpRequest();
+            }
+            else
+            {// code for IE6, IE5
+                xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+            }
+
+
+            if(str.indexOf(", ") >= 0){
+                var arr = str.split(", ");
+                str = arr[arr.length -1 ];
+            }
+
+            xmlhttp.onreadystatechange=function()
+            {
+                if (xmlhttp.readyState==4 && xmlhttp.status==200)
+                {
+                    document.getElementById("txtHint"+type+"2").innerHTML=xmlhttp.responseText;
+                }
+            }
+            xmlhttp.open("GET","gethint.php?ty="+type+"&q="+str,true);
+            xmlhttp.send();
+        }
+    </script>
+
 
 </head>
 <body style="background-color:#111111;">
@@ -472,10 +550,15 @@ $GLOBALS['s'] = "0";
 
 <div id="Artist">
     <p >
-        Welcome User! <br>The following are the artists and songs that you have selected:
-    </p>
-    <?php
+        <?php
 
+        $result = mysqli_query($con, "select fname from users where id = '$uid'");
+        $row = mysqli_fetch_array($result);
+
+        echo  "Hi!".$row['fname']; ?> Welcome User! <br>The following are the artists and songs that you have selected:
+    </p>
+
+    <?php
 
     $con = mysqli_connect('localhost', 'root', 'root', 'project');
 
@@ -483,7 +566,7 @@ $GLOBALS['s'] = "0";
     echo "<div id= 'artistReplace'> ";
     echo "<br>";
     echo "<u> Artists: </u> <br>";
-    $result = mysqli_query($con,"select artist from artist ORDER BY artist ASC");
+    $result = mysqli_query($con,"select artist from artist where  id='$uid' ORDER BY artist ASC");
 
     while($row = mysqli_fetch_array($result)){
         echo "&emsp;".$row['artist']."<br>";
@@ -494,21 +577,28 @@ $GLOBALS['s'] = "0";
 
     echo "<button class='add' id='addArtist'> Add Artists</button>";
     echo "<button class='add' id='remArtist'> Remove Artists</button>";
-    echo "<br>";
-    echo "<br>";
     $addArtist = '<div id="addArtistDiv" xmlns="http://www.w3.org/1999/html">
 
-     Name: <input type="text" name="Artists" placeholder="Enter your favorite Artists" class="addDiv" id="artistname">
+     Name: <input type="text" name="Artists" placeholder="Enter your favorite Artists" class="addDiv" id="artistname"
+      onkeyup="showHint(this.value, \'Artist\')" />
+     <br>
+     Suggestions: <span id="txtHintArtist"></span>
      <br>
      <button class="add" id="addArtistDivBut">Add Artist </button>
+     <br>
+
      </div>';
     echo $addArtist;
 
     $remArtist = '<div id="remArtistDiv" xmlns="http://www.w3.org/1999/html">
 
-     Name: <input type="text" name="Artists" placeholder="Enter Artists to Delete" class="addDiv" id="remartistname">
+     Name: <input type="text" name="Artists" placeholder="Enter Artists to Delete" class="addDiv" id="remartistname"
+     onkeyup="showHint2(this.value, \'Artist\')" />
+          <br>
+     Suggestions: <span id="txtHintArtist2"></span>
      <br>
      <button class="add" id="remArtistDivBut">Remove Artist </button>
+
      </div>';
     echo $remArtist;
 
@@ -519,7 +609,7 @@ $GLOBALS['s'] = "0";
     echo "<div id= 'albumReplace'> ";
     echo "<br>";
     echo "<u> Albums: </u> <br>";
-    $result = mysqli_query($con,"select album from album ORDER BY album ASC");
+    $result = mysqli_query($con,"select album from album where  id='$uid' ORDER BY album ASC");
 
     while($row = mysqli_fetch_array($result)){
         echo "&emsp;".$row['album']."<br>";
@@ -531,19 +621,24 @@ $GLOBALS['s'] = "0";
     echo "<button class='add' id='addAlbum'> Add Album</button>";
     echo "<button class='add' id='remAlbum'> Remove Album</button>";
 
-    echo "<br>";
-    echo "<br>";
     $addAlbum = '<div id="addAlbumDiv" xmlns="http://www.w3.org/1999/html">
 
-     Name: <input type="text" name="Albums" placeholder="Enter your favorite Albums" class="addDiv" id="albumname">
+     Name: <input type="text" name="Albums" placeholder="Enter your favorite Albums" class="addDiv" id="albumname"
+     onkeyup="showHint(this.value, \'Album\')" />
+          <br>
+     Suggestions: <span id="txtHintAlbum"></span>
      <br>
      <button class="add" id="addAlbumDivBut">Add Artist </button>
+     <br>
      </div>';
     echo $addAlbum;
 
     $remAlbum = '<div id="remAlbumDiv" xmlns="http://www.w3.org/1999/html">
 
-     Name: <input type="text" name="Albums" placeholder="Enter Albums to Remove" class="addDiv" id="remalbumname">
+     Name: <input type="text" name="Albums" placeholder="Enter Albums to Remove" class="addDiv" id="remalbumname"
+     onkeyup="showHint2(this.value, \'Album\')" />
+               <br>
+     Suggestions: <span id="txtHintAlbum2"></span>
      <br>
      <button class="add" id="remAlbumDivBut">Remove Artist </button>
      </div>';
@@ -554,7 +649,7 @@ $GLOBALS['s'] = "0";
     echo "<div id= 'songReplace'> ";
     echo "<br>";
     echo "<u> Songs: </u> <br>";
-    $result = mysqli_query($con,"select song from song ORDER BY song ASC");
+    $result = mysqli_query($con,"select song from song where  id='$uid' ORDER BY song ASC");
 
     while($row = mysqli_fetch_array($result)){
         echo "&emsp;".$row['song']."<br>";
@@ -566,20 +661,25 @@ $GLOBALS['s'] = "0";
     echo "<button class='add' id='addSong'> Add Songs</button>";
     echo "<button class='add' id='remSong'> Remove Songs</button>";
 
-    echo "<br>";
-    echo "<br>";
     $addSong = '<div id="addSongDiv" xmlns="http://www.w3.org/1999/html">
 
-     Name: <input type="text" name="Songs" placeholder="Enter Your Favorite Songs" class="addDiv" id="songname">
+     Name: <input type="text" name="Songs" placeholder="Enter Your Favorite Songs" class="addDiv" id="songname"
+     onkeyup="showHint(this.value, \'Song\')" />
+          <br>
+     Suggestions: <span id="txtHintSong"></span>
      <br>
      <button class="add" id="addSongDivBut">Add Song</button>
+     <br>
      </div>';
     echo $addSong;
 
     $remSong = '<div id="remSongDiv" xmlns="http://www.w3.org/1999/html">
 
-     Name: <input type="text" name="Songs" placeholder="Enter Songs to Remove" class="addDiv" id="remsongname">
+     Name: <input type="text" name="Songs" placeholder="Enter Songs to Remove" class="addDiv" id="remsongname"
+     onkeyup="showHint2(this.value, \'Song\')" />
      <br>
+     Suggestions: <span id="txtHintSong2"></span>
+      <br>
      <button class="add" id="remSongDivBut">Remove Song</button>
      </div>';
     echo $remSong;
@@ -590,7 +690,7 @@ $GLOBALS['s'] = "0";
     echo "<div id= 'genreReplace'> ";
     echo "<br>";
     echo "<u> Genre: </u> <br>";
-    $result = mysqli_query($con,"select genre from genre ORDER BY genre ASC");
+    $result = mysqli_query($con,"select genre from genre where  id='$uid' ORDER BY genre ASC");
 
     while($row = mysqli_fetch_array($result)){
         echo "&emsp;".$row['genre']."<br>";
@@ -602,19 +702,25 @@ $GLOBALS['s'] = "0";
     echo "<button class='add' id='addGenre'> Add Genre</button>";
     echo "<button class='add' id='remGenre'> Remove Genre</button>";
 
-    echo "<br>";
-    echo "<br>";
     $addGenre = '<div id="addGenreDiv" xmlns="http://www.w3.org/1999/html">
 
-     Name: <input type="text" name="Genres" placeholder="Enter your favorite Genres" class="addDiv" id="genrename">
+     Name: <input type="text" name="Genres" placeholder="Enter your favorite Genres" class="addDiv" id="genrename"
+     onkeyup="showHint(this.value, \'Genre\')"/>
+          <br>
+     Suggestions: <span id="txtHintGenre"></span>
      <br>
      <button class="add" id="addGenreDivBut">Add Genre </button>
+     <br>
      </div>';
     echo $addGenre;
 
     $remGenre = '<div id="remGenreDiv" xmlns="http://www.w3.org/1999/html">
 
-     Name: <input type="text" name="Genres" placeholder="Enter Genres to Delete" class="addDiv" id="remgenrename">
+     Name: <input type="text" name="Genres" placeholder="Enter Genres to Delete" class="addDiv" id="remgenrename"
+     onkeyup="showHint2(this.value, \'Genre\')"/>
+     <br>
+     Suggestions: <span id="txtHintGenre2"></span>
+     <br>
      <br>
      <button class="add" id="remGenreDivBut">Remove Genre </button>
      </div>';

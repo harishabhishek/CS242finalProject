@@ -118,11 +118,43 @@ button.add
     margin-top: 20px;
 }
 
+#success{
+    font: "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: green;
+    width: 500px;
+    text-align: justify;
+    margin-left: 50px;
+}
+
+#failure{
+    font: "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: red;
+    width: 500px;
+    text-align: justify;
+    margin-left: 50px;
+}
+
+
 input.addDiv{
     font: "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: #00A0C6;
     width: 300px;
+}
+
+input.button{
+    display: inline-block;
+    letter-spacing: 0.10em;
+    background: #2651a8;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFF;
+    margin-left: 50px;
+    margin-top: 20px;
 }
 
 #about{
@@ -172,6 +204,17 @@ input.addDiv{
 
 }
 
+#topError{
+    font: "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    width: 500px;
+    text-align: justify;
+    margin-left: 10px;
+
+}
+
+
+
 #formdiv{
 
     margin-top: 10%;
@@ -186,6 +229,58 @@ input.addDiv{
     margin-left: 25px;
     margin-bottom: 50px;
 }
+
+#addAlbumDiv{
+    height: 0px;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+}
+
+#addSongDiv{
+    height: 0px;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+}
+
+#addGenreDiv{
+    height: 0px;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+}
+
+#remGenreDiv{
+    height: 0px;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+}
+
+#remSongDiv{
+    height: 0px;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+}
+
+
+#remAlbumDiv{
+    height: 0px;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+}
+
+
+#remArtistDiv{
+    height: 0px;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+}
+
 
 #formdiv2{
 

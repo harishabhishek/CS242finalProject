@@ -5,7 +5,7 @@
  * Date: 4/18/14
  * Time: 12:51 AM
  */
-
+session_start();
 
 
 /**
@@ -33,18 +33,18 @@ function test_input($data)
     return $data;
 }
 
-$id = $_POST["userid"];
-$album = $_POST["albumname"];
+$song = $_POST["songname"];
+$uid = $_SESSION['usrid'];
 
-function printData($con){
+function printData($con, $uid){
 
-    echo "<div id= 'albumReplace'> ";
+    echo "<div id= 'songReplace'> ";
 
     echo "<br>";
-    echo "<u> Albums: </u> <br>";
-    $result = mysqli_query($con,"select album from album ORDER BY album ASC");
+    echo "<u> Songs: </u> <br>";
+    $result = mysqli_query($con,"select song from song where  id='$uid' ORDER BY song ASC");
     while($row = mysqli_fetch_array($result)){
-        echo "&emsp;".$row['album']."<br>";
+        echo "&emsp;".$row['song']."<br>";
     }
     echo "<br>";
 
@@ -53,15 +53,15 @@ function printData($con){
 
 }
 
-function addIntoDatabase($con, $id, $album){
+function addIntoDatabase($con, $uid, $song){
 
-    $albums = explode("," , $album);
+    $songs = explode("," , $song);
 
 
-    for($i=0; $i<count($albums); $i++ ){
+    for($i=0; $i<count($songs); $i++ ){
 
-        $toUse = test_input($albums[$i]);
-        $stmt = mysqli_query($con, "delete from album where album = '$toUse'  and id = '$id' ");
+        $toUse = test_input($songs[$i]);
+        $stmt = mysqli_query($con, "delete from song where song = '$toUse'  and id = '$uid' ");
 
 
     }
@@ -72,11 +72,11 @@ function addIntoDatabase($con, $id, $album){
 
 $con = setDatabase();
 
-printData($con);
+printData($con, $uid);
 
-if($album!= ""){
+if($song!= ""){
 
-    addIntoDatabase($con, $id, $album);
+    addIntoDatabase($con, $uid, $song);
 
 }
 

@@ -33,7 +33,7 @@ function test_input($data)
 
 <html>
 <head>
-    <link rel="STYLESHEET" type="text/css" href="style.css"/>
+    <link rel="STYLESHEET" type="text/css" href="source/style.css"/>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
     </script>
     <script>
@@ -50,7 +50,7 @@ function test_input($data)
 </head>
 <body class="back">
 <div>
-    <p class="banner"> <a href="home.php" class="nounderline"> MusicMate.com</a></p>
+    <p class="banner"> <a href="source/home.php" class="nounderline"> MusicMate.com</a></p>
 </div>
 
 <div id="Artist" style="margin-top: 5%; align-self: center; width: 800px">
@@ -89,7 +89,7 @@ function test_input($data)
                 $pwd = trim($pwd);
 
                 $flag = false;
-                //echo password_hash("ab", PASSWORD_DEFAULT);
+                $con = mysqli_connect('localhost', 'root', 'root', 'project');
 
                 $result = mysqli_query($con,"select usr from password ");
 
@@ -103,15 +103,19 @@ function test_input($data)
                     echo "<span style='color: #ff0000' >Failure as the user name already exists. (it's case sensitive) </span>";
                 }
                 else{
-                    //$pwd = password_hash($pwd, PASSWORD_DEFAULT);
-                    $pwd = md5($pwd);
+                    //$hash = password_hash($pwd, PASSWORD_DEFAULT);
+                    $hash = md5($pwd);
 //                    $stmt = $con->prepare("insert into password (usr, pwd) values (?, ?)");
 //                    $stmt->bind_param("ss", $uname, $pwd);
 //                    $stmt->execute();
 //                    $stmt->close();
 
-                    $result = mysqli_query($con, "insert into password (usr, pwd) values ('$uname' , '$pwd')");
-                    echo "<span style='color: lightgreen'>User added. Success </span>";
+
+                    echo strlen($hash);
+                    echo $hash;
+                    $usr = $uname;
+                    $result = mysqli_query($con, "insert into password (usr, pwd) values ( '$usr', '$hash')");
+                    //echo "<span style='color: lightgreen'>User added. Success </span>";
 
                 }
             }
@@ -122,7 +126,18 @@ function test_input($data)
     </p>
      <br>
     </div>
-
+    <div>
+<!--        <p> Initial Hash : --><?php
+//            $con = mysqli_connect('localhost', 'root', 'root', 'project');
+//            $hash = password_hash("Blue", PASSWORD_DEFAULT);
+//            echo $hash;
+//            $usr = "usr";
+//            $result - mysqli_query($con, "insert into password (usr, pwd) values ( '$usr', '$hash')")
+//
+//            ?>
+        </p>
+        <p> Final Hash : </p>
+    </div>
     <div id="output">
         <form id="formoid2" action="loginHandler.php" METHOD="post">
             <div>
@@ -149,12 +164,13 @@ function test_input($data)
 
                     $uname = $_POST['oname'];
                     $pwd = $_POST['opassword'];
-
+                    $pwd = trim($pwd);
                     $uname = test_input($uname);
-                    $pwd = $pwd;
+
 
                     $flag = true;
 
+                    $con = mysqli_connect('localhost', 'root', 'root', 'project');
                     $result = mysqli_query($con,"select usr from password ");
 
                     while($row = mysqli_fetch_array($result)){
@@ -170,20 +186,28 @@ function test_input($data)
 
                         $result = mysqli_query($con,"select pwd from password where usr='$uname'");
                         $row = mysqli_fetch_array($result);
-                        $hashedVal = $row['pwd'];
-                        $hashedVal = trim($hashedVal);
+                        $hashedVal = strval($row['pwd']);
 
-                        //$valid = password_verify($pwd , $hashedVal );
 
-                        $valid = (md5($pwd) == $hashedVal);
 
-                        //echo md5($pwd);
+                        //$valid = (md5($pwd) ==  $hashedVal);
+                        $valid = password_verify(str($pwd), str($row['pwd']));
+                        echo $pwd;
+                        echo strlen($pwd);
 
-                        if($valid){
-                            echo "<span style='color: lightgreen'>Correct password, User Found. Success </span>";
+                        if($valid == TRUE){
+                            echo "true";
                         }
-                        else
-                            echo "<span style='color: #ff0000' >Failure, The password did not match. (it's case sensitive) </span>";
+                        if($valid == FALSE){
+                            echo "false";
+                        }
+//                        echo md5($pwd);
+//
+//                        if($valid){
+//                            echo "<span style='color: lightgreen'>Correct password, User Found. Success </span>";
+//                        }
+//                        else
+//                            echo "<span style='color: #ff0000' >Failure, The password did not match. (it's case sensitive) </span>";
 
                     }
                 }
