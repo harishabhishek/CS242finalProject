@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d1ea2412-9d89-4e56-bc19-4d4ed44bd9d7" name="Default" comment="" />
+    <list default="true" id="c6c1426b-579e-4217-a478-d4d0c6adb635" name="Default" comment="" />
     <ignored path="untitled.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,7 +18,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+    <breakpoint_any>
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
         <option name="NOTIFY_UNCAUGHT" value="true" />
@@ -54,9 +54,82 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
+  </component>
+  <component name="DimensionService">
+    <location key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog.0.0.1920.1200" x="626" y="215" />
+    <location key="dock-window-1.0.0.1920.1200" x="-14" y="167" />
+    <location key="DetectedRootsChooserDialog.0.0.1920.1200" x="1045" y="276" />
+    <location key="#untitled_on_server.0.0.1920.1200" x="810" y="280" />
+    <location key="#SimpleClassTest.0.0.1920.1200" x="822" y="278" />
+    <location key="#Servers.0.0.1920.1200" x="797" y="353" />
+    <location key="#com.jetbrains.php.config.servers.PhpEnvironmentValidationDialog#.0.0.1920.1200" x="932" y="516" />
+    <location key="#Deployment.0.0.1920.1200" x="797" y="353" />
+    <location key="#Unnamed.0.0.1920.1200" x="729" y="278" />
+    <location key="#index.php.0.0.1920.1200" x="1125" y="267" />
+    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.0.0" x="844" y="491" />
+    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1920.1200" x="610" y="258" />
+    <location key="WebDeployment.AddServerDialog.v.1.0.0.1920.1200" x="1181" y="427" />
+    <location key="#com.intellij.structuralsearch.plugin.ui.SearchDialog.0.0.1920.1200" x="689" y="461" />
+    <location key="#test.0.0.1920.1200" x="606" y="219" />
+    <location key="#AssignmentEntryTest.0.0.1920.1200" x="606" y="219" />
+    <location key="OptionsEditor.0.0.1920.1200" x="696" y="269" />
+    <location key="#PHP.0.0.1920.1200" x="623" y="202" />
+    <location key="FileChooserDialogImpl.0.0.1920.1200" x="1044" y="261" />
+    <location key="#Interpreters.0.0.1920.1200" x="976" y="165" />
+    <location key="NewPhpFileDialog.0.0.1920.1200" x="680" y="457" />
+    <location key="#Browse_JetBrains_Plugins_.0.0.1920.1200" x="547" y="162" />
+    <location key="#com.intellij.ws.actions.GenerateJavaFromWsdlDialog.0.0.1920.1200" x="694" y="474" />
+    <location key="NewModule_or_Project.wizard.0.0.1920.1200" x="783" y="237" />
+    <location key="WELCOME_SCREEN.0.0.1920.1200" x="959" y="300" />
+    <location key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog.0.0.1920.1200" x="692" y="326" />
+    <location key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#function0.0.0.1920.1200" x="683" y="199" />
+    <location key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#function1.0.0.1920.1200" x="1052" y="140" />
+    <location key="#com.intellij.refactoring.rename.AutomaticRenamingDialog.0.0.1920.1200" x="683" y="298" />
+    <location key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method1.0.0.1920.1200" x="683" y="124" />
+    <location key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method0.0.0.1920.1200" x="980" y="198" />
+    <location key="svn.repositoryBrowser.0.0.1920.1200" x="678" y="270" />
+    <location key="svn.upgradeDialog.0.0.1920.1200" x="716" y="487" />
+    <location key="CommitChangelistDialog2.0.0.1920.1200" x="572" y="295" />
+    <location key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.0.0.1920.1200" x="672" y="419" />
+    <location key="#ParserTests.0.0.1920.1200" x="606" y="225" />
+    <location key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog.0.0.1920.1200" x="700" y="298" />
+    <location key="EditParametersPopupWindow.0.0.1920.1200" x="881" y="641" />
+    <location key="#temp.php.0.0.1920.1200" x="813" y="284" />
+    <location key="com.jetbrains.php.phpunit.PhpUnitNewTestDialog.0.0.1920.1200" x="933" y="510" />
+    <location key="#TestDatabase.0.0.1920.1200" x="720" y="240" />
+    <location key="export.test.results.0.0.1920.1200" x="821" y="414" />
+    <location key="#Unnamed_(1).0.0.1920.1200" x="720" y="240" />
+    <location key="#AssignmentEntryTest_on_MAMP_Apache.0.0.1920.1200" x="708" y="219" />
+    <location key="#PHPUnit.0.0.1920.1200" x="616" y="439" />
+    <location key="NewPhpClassDialog.0.0.1920.1200" x="861" y="412" />
+    <location key="com.intellij.persistence.run.ui.ObjectUiFactory#TextEditor.0.0.1920.1200" x="912" y="481" />
+    <location key="WELCOME_SCREEN.0.0.1440.900" x="745" y="373" />
+    <size key="dock-window-1.0.0.1920.1200" width="850" height="644" />
+    <size key="NewModule_or_Project.wizard.0.0.1920.1200" width="813" height="681" />
+    <size key="javadoc.popup.0.0.1920.1200" width="600" height="418" />
+    <size key="GridCell.Tab.1.bottom.0.0.1920.1200" width="1612" height="298" />
+    <size key="GridCell.Tab.1.right.0.0.1920.1200" width="1612" height="298" />
+    <size key="GridCell.Tab.1.center.0.0.1920.1200" width="1612" height="298" />
+    <size key="GridCell.Tab.1.left.0.0.1920.1200" width="1612" height="298" />
+    <size key="GridCell.Tab.1.bottom.1920.0.1920.1200" width="1733" height="317" />
+    <size key="GridCell.Tab.1.right.1920.0.1920.1200" width="1733" height="317" />
+    <size key="GridCell.Tab.1.center.1920.0.1920.1200" width="1733" height="317" />
+    <size key="GridCell.Tab.1.left.1920.0.1920.1200" width="1733" height="317" />
+    <size key="GridCell.Tab.0.bottom.1920.0.1920.1200" width="1733" height="280" />
+    <size key="GridCell.Tab.0.right.1920.0.1920.1200" width="1733" height="280" />
+    <size key="GridCell.Tab.0.center.1920.0.1920.1200" width="1733" height="280" />
+    <size key="GridCell.Tab.0.left.1920.0.1920.1200" width="1733" height="280" />
+    <size key="GridCell.Tab.0.left.0.0.1920.1200" width="1448" height="165" />
+    <size key="GridCell.Tab.0.center.0.0.1920.1200" width="1448" height="165" />
+    <size key="GridCell.Tab.0.right.0.0.1920.1200" width="1448" height="165" />
+    <size key="GridCell.Tab.0.bottom.0.0.1920.1200" width="1448" height="165" />
+    <size key="GridCell.Tab.0.left.0.0.1440.900" width="1448" height="165" />
+    <size key="GridCell.Tab.0.center.0.0.1440.900" width="1448" height="165" />
+    <size key="GridCell.Tab.0.right.0.0.1440.900" width="1448" height="165" />
+    <size key="GridCell.Tab.0.bottom.0.0.1440.900" width="1448" height="165" />
+    <extendedState key="dock-window-1" state="0" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -64,11 +137,97 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="login.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="home.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="366" column="15" selection-start="10218" selection-end="10218" vertical-scroll-proportion="129.375" vertical-offset="8520" max-vertical-offset="12510">
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1399048846000" expanded="true" signature="17161:17175" placeholder="..." />
+                <marker date="1399048846000" expanded="true" signature="17551:17605" placeholder="..." />
+                <marker date="1399048846000" expanded="true" signature="17607:17648" placeholder="select fname..users..." />
+                <marker date="1399048846000" expanded="true" signature="18594:18656" placeholder="select artis..artist..." />
+                <marker date="1399048846000" expanded="true" signature="19014:19346" placeholder="..." />
+                <marker date="1399048846000" expanded="true" signature="19134:19185" placeholder="..." />
+                <marker date="1399048846000" expanded="true" signature="19448:19778" placeholder="..." />
+                <marker date="1399048846000" expanded="true" signature="19567:19618" placeholder="..." />
+                <marker date="1399048846000" expanded="true" signature="19930:19989" placeholder="select album..album..." />
+                <marker date="1399048846000" expanded="true" signature="20339:20668" placeholder="..." />
+                <marker date="1399048846000" expanded="true" signature="20456:20505" placeholder="..." />
+                <marker date="1399048846000" expanded="true" signature="20767:21095" placeholder="..." />
+                <marker date="1399048846000" expanded="true" signature="20883:20933" placeholder="..." />
+                <marker date="1399048846000" expanded="true" signature="21242:21298" placeholder="select song ..song..." />
+                <marker date="1399048846000" expanded="true" signature="21643:21963" placeholder="..." />
+                <marker date="1399048846000" expanded="true" signature="21757:21805" placeholder="..." />
+                <marker date="1399048846000" expanded="true" signature="22059:22369" placeholder="..." />
+                <marker date="1399048846000" expanded="true" signature="22172:22221" placeholder="..." />
+                <marker date="1399048846000" expanded="true" signature="22517:22576" placeholder="select genre..genre..." />
+                <marker date="1399048846000" expanded="true" signature="22926:23253" placeholder="..." />
+                <marker date="1399048846000" expanded="true" signature="23043:23091" placeholder="..." />
+                <marker date="1399048846000" expanded="true" signature="23352:23678" placeholder="..." />
+                <marker date="1399048846000" expanded="true" signature="23468:23517" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/edit.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="91" column="38" selection-start="2305" selection-end="2305" vertical-scroll-proportion="0.8070652" vertical-offset="1068" max-vertical-offset="2670">
+              <folding>
+                <marker date="1399039752000" expanded="true" signature="887:949" placeholder="update users..." />
+                <marker date="1399039752000" expanded="false" signature="989:1001" placeholder="..." />
+                <marker date="1399039752000" expanded="true" signature="1709:1756" placeholder="update users..." />
+                <marker date="1399039752000" expanded="false" signature="1788:1800" placeholder="..." />
+                <marker date="1399039752000" expanded="true" signature="2494:2533" placeholder="select pwd f..users..." />
+                <marker date="1399039752000" expanded="true" signature="2954:3003" placeholder="update users..." />
+                <marker date="1399039752000" expanded="false" signature="3043:3055" placeholder="..." />
+                <marker date="1399039752000" expanded="false" signature="3165:3179" placeholder="..." />
+                <marker date="1399039752000" expanded="true" signature="3932:3965" placeholder="delete from ..." />
+                <marker date="1399039752000" expanded="true" signature="4007:4040" placeholder="delete from ..." />
+                <marker date="1399039752000" expanded="true" signature="4082:4116" placeholder="delete from ..." />
+                <marker date="1399039752000" expanded="true" signature="4158:4191" placeholder="delete from ..." />
+                <marker date="1399039752000" expanded="true" signature="4233:4265" placeholder="delete from ..." />
+                <marker date="1399039752000" expanded="false" signature="4335:4347" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="700" selection-end="700" vertical-scroll-proportion="0.63461536" vertical-offset="123" max-vertical-offset="750">
+            <state line="23" column="19" selection-start="462" selection-end="462" vertical-scroll-proportion="1.0" vertical-offset="294" max-vertical-offset="765">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="project.users" pinned="false" current="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/a04f0dde/059fdd29-3fd4-4256-91dc-f47eaac7a466/project..users">
+          <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gethint.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/gethint.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="99" column="26" selection-start="2317" selection-end="2317" vertical-scroll-proportion="-61.875" vertical-offset="0" max-vertical-offset="1875">
+              <folding>
+                <marker date="1399048872000" expanded="true" signature="230:259" placeholder="select artis..hintartist..." />
+                <marker date="1399048872000" expanded="true" signature="730:755" placeholder="select song ..hintsong..." />
+                <marker date="1399048872000" expanded="true" signature="1225:1252" placeholder="select album..hintalbum..." />
+                <marker date="1399048872000" expanded="true" signature="1722:1749" placeholder="select genre..hintgenre..." />
+                <marker date="1399048872000" expanded="true" signature="2217:2240" placeholder="select uname..users..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,57 +242,26 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/SimpleClassTest.php" />
-        <option value="$PROJECT_DIR$/StackTest.php" />
-        <option value="$PROJECT_DIR$/User.php" />
-        <option value="$PROJECT_DIR$/test/CollectionTest.php" />
-        <option value="$PROJECT_DIR$/test/DatabaseTest.php" />
-        <option value="$PROJECT_DIR$/test/UpdateDatabaseTest.php" />
-        <option value="$PROJECT_DIR$/test/UserTest.php" />
-        <option value="$PROJECT_DIR$/Database.php" />
-        <option value="$PROJECT_DIR$/Collection.php" />
-        <option value="$PROJECT_DIR$/UpdateDatabase.php" />
-        <option value="$PROJECT_DIR$/Stack.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/Input.php" />
-        <option value="$PROJECT_DIR$/remsongs.php" />
-        <option value="$PROJECT_DIR$/thanks.php" />
-        <option value="$PROJECT_DIR$/login.php" />
-        <option value="$PROJECT_DIR$/test/StackTest.php" />
-        <option value="$PROJECT_DIR$/source/home.php" />
-        <option value="$PROJECT_DIR$/token-input-facebook.css" />
-        <option value="$PROJECT_DIR$/hint.php" />
-        <option value="$PROJECT_DIR$/gethint.php" />
-        <option value="$PROJECT_DIR$/loginHandler.php" />
-        <option value="$PROJECT_DIR$/style.css" />
-        <option value="$PROJECT_DIR$/addalbum.php" />
-        <option value="$PROJECT_DIR$/addgenre.php" />
-        <option value="$PROJECT_DIR$/addsong.php" />
-        <option value="$PROJECT_DIR$/remalbum.php" />
-        <option value="$PROJECT_DIR$/remartist.php" />
-        <option value="$PROJECT_DIR$/remgenre.php" />
-        <option value="$PROJECT_DIR$/remsong.php" />
-        <option value="$PROJECT_DIR$/home.php" />
-        <option value="$PROJECT_DIR$/addartist.php" />
+        <option value="$PROJECT_DIR$/source/login.php" />
+        <option value="$PROJECT_DIR$/source/userSearch.php" />
+        <option value="$PROJECT_DIR$/source/style.css" />
         <option value="db-console:/a04f0dde/059fdd29-3fd4-4256-91dc-f47eaac7a466/" />
-        <option value="$PROJECT_DIR$/signup.php" />
-        <option value="$PROJECT_DIR$/profile.php" />
-        <option value="$PROJECT_DIR$/test/TestPassword.php" />
-        <option value="$PROJECT_DIR$/source/signup.php" />
+        <option value="$PROJECT_DIR$/source/profile.php" />
+        <option value="$PROJECT_DIR$/source/edit.php" />
+        <option value="$PROJECT_DIR$/hint.php" />
+        <option value="$PROJECT_DIR$/source/home.php" />
+        <option value="$PROJECT_DIR$/source/gethint.php" />
       </list>
     </option>
   </component>
-  <component name="PhpServers">
-    <option name="servers">
-      <server host="localhost" name="Unnamed" port="8888" />
-    </option>
+  <component name="LafManager">
+    <laf class-name="com.apple.laf.AquaLookAndFeel" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="MAMP" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="144" />
-    <option name="y" value="28" />
-    <option name="width" value="1490" />
-    <option name="height" value="867" />
+    <option name="y" value="22" />
+    <option name="width" value="1416" />
+    <option name="height" value="746" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -163,12 +291,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Tests" />
-      </pane>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -197,75 +320,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="source" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="GoToClass.includeLibraries" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test" />
-    <property name="options.lastSelected" value="database.main" />
-    <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
-    <property name="restartRequiresConfirmation" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="SearchEverywhereHistory" value="" />
-    <property name="FullScreen" value="false" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="PyConsoleOptionsProvider">
-    <option name="myPythonConsoleState">
-      <console-settings />
-    </option>
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/source" />
-      <recent name="$PROJECT_DIR$/test" />
-    </key>
-  </component>
-  <component name="RunManager" selected="PHPUnit.CollectionTest">
-    <configuration default="false" name="StackTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="StackTest" directory="$PROJECT_DIR$" file="$PROJECT_DIR$/StackTest.php" scope="Class" />
-      <RunnerSettings RunnerId="PhpRunner" />
-      <ConfigurationWrapper RunnerId="PhpRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="StackTest (1)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="StackTest" directory="$PROJECT_DIR$/test" file="$PROJECT_DIR$/test/StackTest.php" />
-      <RunnerSettings RunnerId="PhpRunner" />
-      <ConfigurationWrapper RunnerId="PhpRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="StackTest (2)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="StackTest" directory="$PROJECT_DIR$" file="$PROJECT_DIR$/test/StackTest.php" scope="Class" />
-      <RunnerSettings RunnerId="PhpRunner" />
-      <ConfigurationWrapper RunnerId="PhpRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="CollectionTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="CollectionTest" directory="$PROJECT_DIR$" file="$PROJECT_DIR$/test/CollectionTest.php" scope="Class" />
-      <RunnerSettings RunnerId="PhpRunner" />
-      <ConfigurationWrapper RunnerId="PhpRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
       <module name="" />
       <setting name="vmparams" value="" />
@@ -293,7 +375,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="untitled" />
+      <module name="MusicMate" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="TARGET" value="" />
       <option name="SETTINGS_FILE" value="" />
@@ -311,7 +393,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="untitled" />
+      <module name="MusicMate" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
@@ -336,7 +418,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="untitled" />
+      <module name="MusicMate" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
@@ -361,6 +443,19 @@
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -391,19 +486,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -413,7 +495,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="untitled" />
+      <module name="MusicMate" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
@@ -424,7 +506,7 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="59014ad0-1375-43b3-9f18-45d92aa29a4e" server_name="MAMP Apache">
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -483,6 +565,10 @@
       <option name="usbDebugPort" value="7936" />
       <method />
     </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -503,10 +589,6 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner class="StackTest" directory="$PROJECT_DIR$" file="$PROJECT_DIR$/StackTest.php" scope="Class" />
-      <method />
-    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -518,7 +600,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="untitled" />
+      <module name="MusicMate" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
@@ -533,7 +615,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="untitled" />
+      <module name="MusicMate" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
@@ -604,7 +686,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="untitled" />
+      <module name="MusicMate" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
@@ -613,6 +695,12 @@
       <option name="TEST_TYPE" value="TEST_SCRIPT" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -634,108 +722,57 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
-      <option name="VM_PARAMETERS" value="" />
-      <option name="USER_CFG_CLASS" />
-      <option name="CONTEXT_PROVIDER" />
-      <method />
-    </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="PHPUnit.StackTest" />
-      <item index="1" class="java.lang.String" itemvalue="PHPUnit.StackTest (1)" />
-      <item index="2" class="java.lang.String" itemvalue="PHPUnit.StackTest (2)" />
-      <item index="3" class="java.lang.String" itemvalue="PHPUnit.CollectionTest" />
-    </list>
-    <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="PHPUnit.CollectionTest" />
-        <item index="1" class="java.lang.String" itemvalue="PHPUnit.StackTest (2)" />
-        <item index="2" class="java.lang.String" itemvalue="PHPUnit.StackTest (1)" />
-        <item index="3" class="java.lang.String" itemvalue="PHPUnit.StackTest" />
-      </list>
-    </recent_temporary>
+    <list size="0" />
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="mySSHConnectionTimeout" value="30000" />
-    <option name="mySSHReadTimeout" value="30000" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <option name="IGNORE_EXTERNALS" value="false" />
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d1ea2412-9d89-4e56-bc19-4d4ed44bd9d7" name="Default" comment="" />
-      <created>1397147842880</created>
-      <updated>1397147842880</updated>
-      <workItem from="1397147844251" duration="14444000" />
-      <workItem from="1397189548541" duration="3864000" />
-      <workItem from="1397194064882" duration="2479000" />
-      <workItem from="1397231173892" duration="25000" />
-      <workItem from="1397231201900" duration="917000" />
-      <workItem from="1397232198613" duration="1267000" />
-      <workItem from="1397238658596" duration="660000" />
-      <workItem from="1397245877974" duration="6000" />
-      <workItem from="1397489463378" duration="729000" />
-      <workItem from="1397490225756" duration="789000" />
-      <workItem from="1397528999829" duration="46167000" />
-      <workItem from="1398107752727" duration="1671000" />
-      <workItem from="1398204327651" duration="8219000" />
-      <workItem from="1398269577537" duration="32903000" />
+      <changelist id="c6c1426b-579e-4217-a478-d4d0c6adb635" name="Default" comment="" />
+      <created>1399010088541</created>
+      <updated>1399010088541</updated>
+      <workItem from="1399010088729" duration="18073000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114140000" />
+    <option name="totallyTimeSpent" value="18073000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="144" y="28" width="1490" height="867" extended-state="0" />
+    <frame x="0" y="22" width="1416" height="746" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24387097" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25935483" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287858" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35779816" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17196132" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293944" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2410221" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2410221" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15211062" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496361" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -754,260 +791,24 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/default.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8130" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/token-input-facebook.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="19" selection-start="778" selection-end="778" vertical-scroll-proportion="-0.26104417" vertical-offset="720" max-vertical-offset="1905">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/a04f0dde/059fdd29-3fd4-4256-91dc-f47eaac7a466/project..password">
       <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
         <state />
       </provider>
       <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/gethint.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-1.9885057" vertical-offset="1053" max-vertical-offset="1575">
-          <folding>
-            <marker date="1398402770000" expanded="true" signature="-1:-1" placeholder="select artis..hintartist..." />
-            <marker date="1398402770000" expanded="true" signature="-1:-1" placeholder="select song ..hintsong..." />
-            <marker date="1398402770000" expanded="true" signature="-1:-1" placeholder="select album..hintalbum..." />
-            <marker date="1398402770000" expanded="true" signature="-1:-1" placeholder="select genre..hintgenre..." />
-          </folding>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/back.jpg">
-      <provider selected="true" editor-type-id="images">
+    <entry file="dbDummy://dbtable:/a04f0dde/059fdd29-3fd4-4256-91dc-f47eaac7a466/project..artist">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PasswordHash.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="546">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Input.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="546">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hint.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="940" selection-end="940" vertical-scroll-proportion="0.5689655" vertical-offset="198" max-vertical-offset="720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="161" column="13" selection-start="2812" selection-end="2812" vertical-scroll-proportion="0.619137" vertical-offset="2085" max-vertical-offset="5430">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/addalbum.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="609" selection-end="609" vertical-scroll-proportion="-16.625" vertical-offset="51" max-vertical-offset="1350">
-          <folding>
-            <element signature="e#6#90#0" expanded="false" />
-            <marker date="1398424066000" expanded="true" signature="-1:-1" placeholder="select album..album..." />
-            <marker date="1398424066000" expanded="true" signature="-1:-1" placeholder="insert into ..." />
-            <marker date="1398424066000" expanded="true" signature="-1:-1" placeholder="insert into ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/addgenre.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="610" selection-end="610" vertical-scroll-proportion="-19.375" vertical-offset="0" max-vertical-offset="1335">
-          <folding>
-            <element signature="e#6#90#0" expanded="false" />
-            <marker date="1398424076000" expanded="true" signature="-1:-1" placeholder="select genre..genre..." />
-            <marker date="1398424076000" expanded="true" signature="-1:-1" placeholder="insert into ..." />
-            <marker date="1398424076000" expanded="true" signature="-1:-1" placeholder="insert into ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/addsong.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="16" selection-start="107" selection-end="107" vertical-scroll-proportion="0.056179777" vertical-offset="0" max-vertical-offset="1320">
-          <folding>
-            <element signature="e#6#90#0" expanded="false" />
-            <marker date="1398424094000" expanded="true" signature="-1:-1" placeholder="select song ..song..." />
-            <marker date="1398424094000" expanded="true" signature="-1:-1" placeholder="insert into ..." />
-            <marker date="1398424094000" expanded="true" signature="-1:-1" placeholder="insert into ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/remartist.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="609" selection-end="609" vertical-scroll-proportion="-9.375" vertical-offset="225" max-vertical-offset="1275">
-          <folding>
-            <element signature="e#6#90#0" expanded="false" />
-            <marker date="1398424318000" expanded="true" signature="-1:-1" placeholder="select artis..artist..." />
-            <marker date="1398424318000" expanded="true" signature="-1:-1" placeholder="delete from ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/remgenre.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="16" selection-start="107" selection-end="107" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="1275">
-          <folding>
-            <element signature="e#6#90#0" expanded="false" />
-            <marker date="1398424329000" expanded="true" signature="-1:-1" placeholder="select genre..genre..." />
-            <marker date="1398424329000" expanded="true" signature="-1:-1" placeholder="delete from ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/remsong.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="609" selection-end="609" vertical-scroll-proportion="0.5898876" vertical-offset="135" max-vertical-offset="1275">
-          <folding>
-            <element signature="e#6#90#0" expanded="false" />
-            <marker date="1398424341000" expanded="true" signature="-1:-1" placeholder="select song ..song..." />
-            <marker date="1398424341000" expanded="true" signature="-1:-1" placeholder="delete from ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/remalbum.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="608" selection-end="608" vertical-scroll-proportion="12.75" vertical-offset="741" max-vertical-offset="1275">
-          <folding>
-            <element signature="e#6#90#0" expanded="false" />
-            <marker date="1398424290000" expanded="true" signature="-1:-1" placeholder="select album..album..." />
-            <marker date="1398424290000" expanded="true" signature="-1:-1" placeholder="delete from ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loginHandler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="0" selection-start="2075" selection-end="2333" vertical-scroll-proportion="0.50098234" vertical-offset="1065" max-vertical-offset="3315">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/addartist.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="5" selection-start="972" selection-end="972" vertical-scroll-proportion="-16.25" vertical-offset="270" max-vertical-offset="1380">
-          <folding>
-            <element signature="e#6#90#0" expanded="false" />
-            <marker date="1398437929000" expanded="true" signature="-1:-1" placeholder="select artis..artist..." />
-            <marker date="1398437929000" expanded="true" signature="-1:-1" placeholder="insert into ..." />
-            <marker date="1398437929000" expanded="true" signature="-1:-1" placeholder="insert into ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="557" column="20" selection-start="15509" selection-end="15509" vertical-scroll-proportion="0.4400786" vertical-offset="8131" max-vertical-offset="11175">
-          <folding>
-            <element signature="e#174#257#0" expanded="false" />
-            <marker date="1398441183000" expanded="true" signature="-1:-1" placeholder="select fname..users..." />
-            <marker date="1398441183000" expanded="true" signature="-1:-1" placeholder="select artis..artist..." />
-            <marker date="1398441183000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1398441183000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1398441183000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1398441183000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1398441183000" expanded="true" signature="-1:-1" placeholder="select album..album..." />
-            <marker date="1398441183000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1398441183000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1398441183000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1398441183000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1398441183000" expanded="true" signature="-1:-1" placeholder="select song ..song..." />
-            <marker date="1398441183000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1398441183000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1398441183000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1398441183000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1398441183000" expanded="true" signature="-1:-1" placeholder="select genre..genre..." />
-            <marker date="1398441183000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1398441183000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1398441183000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1398441183000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://db-console:/a04f0dde/059fdd29-3fd4-4256-91dc-f47eaac7a466/">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="44" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="529">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/StackTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="40" selection-start="300" selection-end="332" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="480">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/TestPassword.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="305" selection-end="305" vertical-scroll-proportion="0.31609195" vertical-offset="0" max-vertical-offset="522">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="191" selection-end="191" vertical-scroll-proportion="0.22435898" vertical-offset="0" max-vertical-offset="468">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/CollectionTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/profile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="53" selection-start="1867" selection-end="1867" vertical-scroll-proportion="0.88235295" vertical-offset="915" max-vertical-offset="2295">
-          <folding>
-            <element signature="n#style#0;n#button#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1398439895000" expanded="true" signature="-1:-1" placeholder="select uname..users..." />
-            <marker date="1398439895000" expanded="true" signature="-1:-1" placeholder="select pwd f..users..." />
-            <marker date="1398439895000" expanded="true" signature="-1:-1" placeholder="select id fr..users..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/signup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="978" selection-end="978" vertical-scroll-proportion="0.7307692" vertical-offset="333" max-vertical-offset="2550">
-          <folding>
-            <marker date="1398441269000" expanded="true" signature="-1:-1" placeholder="select uname..users..." />
-            <marker date="1398441269000" expanded="true" signature="-1:-1" placeholder="select MAX(i..users..." />
-            <marker date="1398441269000" expanded="true" signature="-1:-1" placeholder="insert into ..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1021,12 +822,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/a04f0dde/059fdd29-3fd4-4256-91dc-f47eaac7a466/project..artist">
+    <entry file="file://$PROJECT_DIR$/source/addartist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="16" selection-start="989" selection-end="989" vertical-scroll-proportion="0.60402685" vertical-offset="480" max-vertical-offset="1455">
+          <folding>
+            <marker date="1398437929000" expanded="true" signature="-1:-1" placeholder="select artis..artist..." />
+            <marker date="1398437929000" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/addalbum.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="18" selection-start="705" selection-end="1020" vertical-scroll-proportion="-9.875" vertical-offset="528" max-vertical-offset="1425">
+          <folding>
+            <marker date="1398424066000" expanded="true" signature="-1:-1" placeholder="select album..album..." />
+            <marker date="1398424066000" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+            <marker date="1398424066000" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/addsong.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="18" selection-start="703" selection-end="1012" vertical-scroll-proportion="-11.875" vertical-offset="480" max-vertical-offset="1395">
+          <folding>
+            <marker date="1398424094000" expanded="true" signature="-1:-1" placeholder="select song ..song..." />
+            <marker date="1398424094000" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+            <marker date="1398424094000" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/addgenre.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="18" selection-start="706" selection-end="1020" vertical-scroll-proportion="1.7449664" vertical-offset="0" max-vertical-offset="1410">
+          <folding>
+            <marker date="1398424076000" expanded="true" signature="-1:-1" placeholder="select genre..genre..." />
+            <marker date="1398424076000" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="224" column="22" selection-start="3858" selection-end="3858" vertical-scroll-proportion="0.5742358" vertical-offset="3097" max-vertical-offset="5805">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/userSearch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="16" selection-start="1825" selection-end="1825" vertical-scroll-proportion="0.4966443" vertical-offset="813" max-vertical-offset="1275">
+          <folding>
+            <element signature="e#23#105#0" expanded="false" />
+            <marker date="1399022939000" expanded="true" signature="-1:-1" placeholder="select uname..users..." />
+            <marker date="1399022939000" expanded="true" signature="-1:-1" placeholder="select id fr..users..." />
+            <marker date="1399022939000" expanded="true" signature="-1:-1" placeholder="select artis..artist..." />
+            <marker date="1399022939000" expanded="true" signature="-1:-1" placeholder="select album..album..." />
+            <marker date="1399022939000" expanded="true" signature="-1:-1" placeholder="select song ..song..." />
+            <marker date="1399022939000" expanded="true" signature="-1:-1" placeholder="select genre..genre..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a04f0dde/059fdd29-3fd4-4256-91dc-f47eaac7a466/project..song">
       <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
         <state />
       </provider>
       <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="150">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://db-console:/a04f0dde/059fdd29-3fd4-4256-91dc-f47eaac7a466/">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="44" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="412">
           <folding />
         </state>
       </provider>
@@ -1041,52 +913,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/a04f0dde/059fdd29-3fd4-4256-91dc-f47eaac7a466/project..hintalbum">
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
+    <entry file="file://$PROJECT_DIR$/source/profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="152" column="45" selection-start="3398" selection-end="3398" vertical-scroll-proportion="2.3895488" vertical-offset="1199" max-vertical-offset="2370">
+          <folding>
+            <marker date="1399028681000" expanded="true" signature="-1:-1" placeholder="select uname..users..." />
+            <marker date="1399028681000" expanded="true" signature="-1:-1" placeholder="select pwd f..users..." />
+            <marker date="1399028681000" expanded="true" signature="-1:-1" placeholder="select id fr..users..." />
+          </folding>
+        </state>
       </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/signup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="65" selection-start="2035" selection-end="2088" vertical-scroll-proportion="0.7718121" vertical-offset="960" max-vertical-offset="2550">
+          <folding>
+            <marker date="1398445624000" expanded="true" signature="-1:-1" placeholder="select uname..users..." />
+            <marker date="1398445624000" expanded="true" signature="-1:-1" placeholder="select MAX(i..users..." />
+            <marker date="1398445624000" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hint.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="801" column="7" selection-start="20013" selection-end="20013" vertical-scroll-proportion="2.315668" vertical-offset="11010" max-vertical-offset="12105">
+          <folding>
+            <element signature="e#174#257#0" expanded="true" />
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1399048545000" expanded="true" signature="-1:-1" placeholder="select fname..users..." />
+            <marker date="1399048545000" expanded="true" signature="-1:-1" placeholder="select artis..artist..." />
+            <marker date="1399048545000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1399048545000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1399048545000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1399048545000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1399048545000" expanded="true" signature="-1:-1" placeholder="select album..album..." />
+            <marker date="1399048545000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1399048545000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1399048545000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1399048545000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1399048545000" expanded="true" signature="-1:-1" placeholder="select song ..song..." />
+            <marker date="1399048545000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1399048545000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1399048545000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1399048545000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1399048545000" expanded="true" signature="-1:-1" placeholder="select genre..genre..." />
+            <marker date="1399048545000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1399048545000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1399048545000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1399048545000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/gethint.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="26" selection-start="2317" selection-end="2317" vertical-scroll-proportion="-61.875" vertical-offset="0" max-vertical-offset="1875">
+          <folding>
+            <marker date="1399048872000" expanded="true" signature="230:259" placeholder="select artis..hintartist..." />
+            <marker date="1399048872000" expanded="true" signature="730:755" placeholder="select song ..hintsong..." />
+            <marker date="1399048872000" expanded="true" signature="1225:1252" placeholder="select album..hintalbum..." />
+            <marker date="1399048872000" expanded="true" signature="1722:1749" placeholder="select genre..hintgenre..." />
+            <marker date="1399048872000" expanded="true" signature="2217:2240" placeholder="select uname..users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/UserTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/a04f0dde/059fdd29-3fd4-4256-91dc-f47eaac7a466/project..hintartist">
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a04f0dde/059fdd29-3fd4-4256-91dc-f47eaac7a466/project..hintgenre">
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a04f0dde/059fdd29-3fd4-4256-91dc-f47eaac7a466/project..hintsong">
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a04f0dde/059fdd29-3fd4-4256-91dc-f47eaac7a466/project..song">
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+    <entry file="file://$PROJECT_DIR$/source/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="19" selection-start="462" selection-end="462" vertical-scroll-proportion="1.0" vertical-offset="294" max-vertical-offset="765">
           <folding />
         </state>
       </provider>
@@ -1096,106 +999,66 @@
         <state />
       </provider>
       <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/login.php">
+    <entry file="file://$PROJECT_DIR$/source/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="700" selection-end="700" vertical-scroll-proportion="0.63461536" vertical-offset="123" max-vertical-offset="750">
-          <folding />
+        <state line="366" column="15" selection-start="10218" selection-end="10218" vertical-scroll-proportion="129.375" vertical-offset="8520" max-vertical-offset="12510">
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1399048846000" expanded="true" signature="17161:17175" placeholder="..." />
+            <marker date="1399048846000" expanded="true" signature="17551:17605" placeholder="..." />
+            <marker date="1399048846000" expanded="true" signature="17607:17648" placeholder="select fname..users..." />
+            <marker date="1399048846000" expanded="true" signature="18594:18656" placeholder="select artis..artist..." />
+            <marker date="1399048846000" expanded="true" signature="19014:19346" placeholder="..." />
+            <marker date="1399048846000" expanded="true" signature="19134:19185" placeholder="..." />
+            <marker date="1399048846000" expanded="true" signature="19448:19778" placeholder="..." />
+            <marker date="1399048846000" expanded="true" signature="19567:19618" placeholder="..." />
+            <marker date="1399048846000" expanded="true" signature="19930:19989" placeholder="select album..album..." />
+            <marker date="1399048846000" expanded="true" signature="20339:20668" placeholder="..." />
+            <marker date="1399048846000" expanded="true" signature="20456:20505" placeholder="..." />
+            <marker date="1399048846000" expanded="true" signature="20767:21095" placeholder="..." />
+            <marker date="1399048846000" expanded="true" signature="20883:20933" placeholder="..." />
+            <marker date="1399048846000" expanded="true" signature="21242:21298" placeholder="select song ..song..." />
+            <marker date="1399048846000" expanded="true" signature="21643:21963" placeholder="..." />
+            <marker date="1399048846000" expanded="true" signature="21757:21805" placeholder="..." />
+            <marker date="1399048846000" expanded="true" signature="22059:22369" placeholder="..." />
+            <marker date="1399048846000" expanded="true" signature="22172:22221" placeholder="..." />
+            <marker date="1399048846000" expanded="true" signature="22517:22576" placeholder="select genre..genre..." />
+            <marker date="1399048846000" expanded="true" signature="22926:23253" placeholder="..." />
+            <marker date="1399048846000" expanded="true" signature="23043:23091" placeholder="..." />
+            <marker date="1399048846000" expanded="true" signature="23352:23678" placeholder="..." />
+            <marker date="1399048846000" expanded="true" signature="23468:23517" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>javafx-dialogs-0.0.4</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>MusicMate</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <entry file="file://$PROJECT_DIR$/source/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="38" selection-start="2305" selection-end="2305" vertical-scroll-proportion="0.8070652" vertical-offset="1068" max-vertical-offset="2670">
+          <folding>
+            <marker date="1399039752000" expanded="true" signature="887:949" placeholder="update users..." />
+            <marker date="1399039752000" expanded="false" signature="989:1001" placeholder="..." />
+            <marker date="1399039752000" expanded="true" signature="1709:1756" placeholder="update users..." />
+            <marker date="1399039752000" expanded="false" signature="1788:1800" placeholder="..." />
+            <marker date="1399039752000" expanded="true" signature="2494:2533" placeholder="select pwd f..users..." />
+            <marker date="1399039752000" expanded="true" signature="2954:3003" placeholder="update users..." />
+            <marker date="1399039752000" expanded="false" signature="3043:3055" placeholder="..." />
+            <marker date="1399039752000" expanded="false" signature="3165:3179" placeholder="..." />
+            <marker date="1399039752000" expanded="true" signature="3932:3965" placeholder="delete from ..." />
+            <marker date="1399039752000" expanded="true" signature="4007:4040" placeholder="delete from ..." />
+            <marker date="1399039752000" expanded="true" signature="4082:4116" placeholder="delete from ..." />
+            <marker date="1399039752000" expanded="true" signature="4158:4191" placeholder="delete from ..." />
+            <marker date="1399039752000" expanded="true" signature="4233:4265" placeholder="delete from ..." />
+            <marker date="1399039752000" expanded="false" signature="4335:4347" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
 

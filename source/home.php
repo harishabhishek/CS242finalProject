@@ -21,7 +21,6 @@ $uid = $_SESSION['usrid'];
 <html>
 <head>
     <link rel="STYLESHEET" type="text/css" href="style.css"/>
-    <link rel="stylesheet" type="text/css" href="../token-input-facebook.css" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
     </script>
     <script type="text/javascript" src="../tokenizer/jquery.tokeninput.js"></script>
@@ -42,8 +41,46 @@ $uid = $_SESSION['usrid'];
             $("#remAlbumDiv").hide();
             $("#remSongDiv").hide();
             $("#remGenreDiv").hide();
+            $("#searchbutton").hide();
 
 
+
+            $("#hide").click(function(){
+                $("#userContentReplaceDiv").hide();
+            })
+
+
+            ////////EDIT THIS FOR THE USER SEARCH CONTENT
+            $("#searchUser").click(function(){
+
+
+                var url = "userSearch.php";
+                var search = $('#searchid').val();
+//                alert( "Data Loaded: " + search );
+
+                $.post( "userSearch.php", { userid: search, time: "2pm" })
+                    .done(function( data ) {
+                        $("#userContentReplaceDiv").show();
+                        $("#userContentReplaceDiv").load("userSearch.php?q="+search);
+                        $('#searchid').val("");
+                    });
+
+
+            });
+
+
+            $("#search").click(function(){
+                $("#searchbutton").show();
+                $("#searchbuttonReplace").hide();
+
+
+            });
+
+
+
+            $("#logout").click(function(){
+               alert("Hope You enjoyed. You are being logged out.");
+            });
 
             /**
              * Artist add Button Listener
@@ -534,6 +571,35 @@ $uid = $_SESSION['usrid'];
             xmlhttp.open("GET","gethint.php?ty="+type+"&q="+str,true);
             xmlhttp.send();
         }
+
+        function showHint3(str)
+        {
+            var xmlhttp;
+            if (str.length==0)
+            {
+                document.getElementById("searchid").innerHTML="";
+                return;
+            }
+            if (window.XMLHttpRequest)
+            {// code for IE7+, Firefox, Chrome, Opera, Safari
+                xmlhttp=new XMLHttpRequest();
+            }
+            else
+            {// code for IE6, IE5
+                xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+            }
+
+
+            xmlhttp.onreadystatechange=function()
+            {
+                if (xmlhttp.readyState==4 && xmlhttp.status==200)
+                {
+                    document.getElementById("searchhint").innerHTML=xmlhttp.responseText;
+                }
+            }
+            xmlhttp.open("GET","gethint.php?ty=user&q="+str,true);
+            xmlhttp.send();
+        }
     </script>
 
 
@@ -543,9 +609,23 @@ $uid = $_SESSION['usrid'];
 <script type="javascript">
 
 </script>
+
+<?php
+if($_SERVER['REQUEST_METHOD'] == 'POST'){
+$_SESSION['usrid'] = 0;
+}
+?>
+
+
 <div id="super">
 <div>
-    <p class="banner"> <a href="login.php" class="nounderline"> MusicMate.com</a></p>
+    <p class="banner"> <a href="login.php" class="nounderline"> MusicMate.com</a>
+        <form id=""form action="<?php echo $_SERVER["PHP_SELF"];?>" method="post">
+        <button class="addT" id="logout"> Logout </button>
+        </form>
+    <button class="addT" id="editUser"> <a href="edit.php" class="nounderline">Edit/Delete </a> </button>
+
+    </p>
 </div>
 
 <div id="Artist">
@@ -558,6 +638,20 @@ $uid = $_SESSION['usrid'];
         echo  "Hi!".$row['fname']; ?> Welcome User! <br>The following are the artists and songs that you have selected:
     </p>
 
+
+    <div id="searchbutton" >
+
+        User Name: <input type="text" name="userSearch" placeholder="Enter User Name to search for" class="addDiv" id="searchid"
+        onkeyup="showHint3(this.value)">
+        Suggestions: <span id="searchhint"></span>
+        <br>
+        <button class="add" id="searchUser"> Search</button> <button class="add" id="hide">Hide</button>
+        <div id="userContentReplaceDiv" style="background-color: darkblue"></div>
+    </div>
+
+    <div id="searchbuttonReplace">
+    <button class="add" id="search"> Search</button>
+    </div>
     <?php
 
     $con = mysqli_connect('localhost', 'root', 'root', 'project');

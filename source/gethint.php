@@ -93,6 +93,26 @@ if($type == "Genre"){
     }
 }
 
+if($type == "user"){
+
+    $result = mysqli_query($con,"select uname from users");
+    while($row = mysqli_fetch_array($result)){
+        $a[] = $row['uname'];
+    }
+    // lookup all hints from array if $q is different from ""
+    if ($q !== "")
+    { $q=strtolower($q); $len=strlen($q);
+        foreach($a as $name)
+        { if (stristr($q, substr($name,0,$len)))
+        { if ($hint==="")
+        { $hint=$name; }
+        else
+        { $hint .= ", $name"; }
+        }
+        }
+    }
+}
+
 
 // Output "no suggestion" if no hint were found
 // or output the correct values

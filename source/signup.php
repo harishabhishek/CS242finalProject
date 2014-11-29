@@ -23,11 +23,7 @@ $flag = false;
 
                 $('#continue').click(function() {
 
-<!--                    var login = "--><?php //echo $_SESSION['login']; ?><!--";-->
-<!--                    alert(login);-->
                        window.open('home.php', '_blank');
-
-//                    }
 
                 });
 
@@ -103,6 +99,10 @@ $flag = false;
             $_SESSION['login'] = "true";
 
             echo "<div id='success'> Signup Was Successful </div>";
+
+            $alert = "<script> alert('Your Signup was successful. Please Continue')</script>";
+
+            echo $alert;
         }
 
         if(!$flag){

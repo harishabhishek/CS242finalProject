@@ -118,10 +118,24 @@ button.add
     margin-top: 20px;
 }
 
+button.addT
+{
+    display: inline-block;
+    letter-spacing: 0.10em;
+    background: #2651a8;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFF;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
 #success{
     font: "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
     font-size: 25px;
-    color: green;
+    color: lightgreen;
     width: 500px;
     text-align: justify;
     margin-left: 50px;
@@ -201,6 +215,17 @@ input.button{
     width: 500px;
     text-align: justify;
     margin-left: 50px;
+
+}
+
+#formdiv3{
+
+    color: #ffffff;
+    width: 500px;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 15%;
+    width: 450px;
 
 }
 

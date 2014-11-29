@@ -97,6 +97,7 @@
         }
 
         if($pflag){
+            $flag = false;
             echo "<div id='failure'> Failure: Password did not match</div>";
         }
 
@@ -108,6 +109,10 @@
 
             $_SESSION['usrid'] = $uid;
             echo "<div id='success'> Signup Was Successful </div>";
+
+            $alert = "<script> alert('Your Signup was successful. Please Continue')</script>";
+
+            echo $alert;
         }
         else{
             echo "<div id='failure'> Login failed because of one of more reasons </div>";
@@ -145,7 +150,7 @@
         </div>
     </form>
 
-    <button id="continue" class="submitbuton" style="margin-left: 180px" >Continue</button>
+    <button id="continue" class="submitbuton" >Continue</button>
 </div>
 
 <div id ="div1"> </div>
